@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="spec" x1="0" y1="630" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.55" stop-color="#34d399"/>
+      <stop offset="0.8" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0a12"/>
+  <!-- spectrum rail -->
+  <rect x="96" y="150" width="26" height="330" rx="13" fill="url(#spec)"/>
+  <!-- ascending tiles -->
+  <g>
+    <rect x="150" y="430" width="300" height="50" rx="12" fill="#141521" stroke="#2e3047"/>
+    <rect x="150" y="360" width="340" height="50" rx="12" fill="#141521" stroke="#2e3047"/>
+    <rect x="150" y="290" width="380" height="50" rx="12" fill="#141521" stroke="#2e3047"/>
+    <rect x="150" y="220" width="420" height="50" rx="12" fill="#141521" stroke="#2e3047"/>
+    <circle cx="175" cy="455" r="9" fill="#6366f1"/>
+    <circle cx="175" cy="385" r="9" fill="#38bdf8"/>
+    <circle cx="175" cy="315" r="9" fill="#34d399"/>
+    <circle cx="175" cy="245" r="9" fill="#facc15"/>
+  </g>
+  <!-- wordmark -->
+  <text x="650" y="300" font-family="'Sora','Segoe UI',sans-serif" font-size="110" font-weight="800" fill="url(#wordmark)">Spectra</text>
+  <text x="652" y="370" font-family="'Inter','Segoe UI',sans-serif" font-size="34" font-weight="600" fill="#ecedf7" opacity="0.92">Eight things, one hidden gradient.</text>
+  <text x="652" y="418" font-family="'Inter','Segoe UI',sans-serif" font-size="34" font-weight="600" fill="#9799b2">Put them in order. A new puzzle daily.</text>
+</svg>
