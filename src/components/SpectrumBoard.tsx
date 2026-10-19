@@ -14,9 +14,23 @@ interface Props {
  * The playable board: a vertical, drag-to-reorder list of the eight items with
  * a spectrum rail down the side. Top slot = low end, bottom slot = high end,
  * which matches the ascending order the scorer expects (order[0] is the low end).
+ *
+ * Fully keyboard-accessible: focus a tile and use ↑/↓ to move it, so the game
+ * works without a pointer.
  */
 export default function SpectrumBoard({ set, order, onReorder, disabled }: Props) {
   const n = order.length;
+
+  const move = (value: number, dir: -1 | 1) => {
+    if (disabled) return;
+    const i = order.indexOf(value);
+    const j = i + dir;
+    if (j < 0 || j >= n) return;
+    const next = order.slice();
+    [next[i], next[j]] = [next[j], next[i]];
+    onReorder(next);
+  };
+
   return (
     <div className="flex gap-3">
       <ScaleRail low={set.lowLabel} high={set.highLabel} />
@@ -25,6 +39,7 @@ export default function SpectrumBoard({ set, order, onReorder, disabled }: Props
         values={order}
         onReorder={onReorder}
         className="flex flex-1 flex-col gap-2"
+        aria-label={`${set.axis}: arrange the eight items from ${set.lowLabel.toLowerCase()} (top) to ${set.highLabel.toLowerCase()} (bottom)`}
       >
         {order.map((itemIndex, slot) => (
           <Row
@@ -34,7 +49,10 @@ export default function SpectrumBoard({ set, order, onReorder, disabled }: Props
             n={n}
             name={set.items[itemIndex].name}
             emoji={set.items[itemIndex].emoji}
+            lowLabel={set.lowLabel}
+            highLabel={set.highLabel}
             disabled={disabled}
+            onMove={move}
           />
         ))}
       </Reorder.Group>
@@ -70,18 +88,35 @@ function Row({
   n,
   name,
   emoji,
+  lowLabel,
+  highLabel,
   disabled,
+  onMove,
 }: {
   value: number;
   slot: number;
   n: number;
   name: string;
   emoji?: string;
+  lowLabel: string;
+  highLabel: string;
   disabled?: boolean;
+  onMove: (value: number, dir: -1 | 1) => void;
 }) {
   const controls = useDragControls();
   // Top slot is the LOW end of the scale, bottom is the HIGH end.
   const tint = spectrumColor(slotT(slot, n));
+
+  const onKeyDown = (e: React.KeyboardEvent) => {
+    if (disabled) return;
+    if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+      e.preventDefault();
+      onMove(value, -1);
+    } else if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+      e.preventDefault();
+      onMove(value, 1);
+    }
+  };
 
   return (
     <Reorder.Item
@@ -97,6 +132,10 @@ function Row({
           disabled ? "" : "cursor-grab active:cursor-grabbing"
         }`}
         onPointerDown={(e) => !disabled && controls.start(e)}
+        onKeyDown={onKeyDown}
+        tabIndex={disabled ? -1 : 0}
+        role="button"
+        aria-label={`${name}. Position ${slot + 1} of ${n}, ${lowLabel.toLowerCase()} to ${highLabel.toLowerCase()}. Press up or down arrow to move.`}
       >
         <span
           className="grid h-7 w-7 shrink-0 place-items-center rounded-lg text-xs font-bold text-white shadow-sm"
@@ -108,7 +147,7 @@ function Row({
         <span className="text-xl leading-none" aria-hidden>
           {emoji ?? "•"}
         </span>
-        <span className="flex-1 truncate font-semibold">{name}</span>
+        <span className="line-clamp-2 flex-1 font-semibold leading-tight">{name}</span>
         {!disabled && (
           <span className="shrink-0 text-muted/70" aria-hidden>
             <GripIcon />

@@ -216,7 +216,7 @@ function RevealRow({
       </span>
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-1.5">
-          <span className="truncate font-semibold">{r.item.name}</span>
+          <span className="line-clamp-2 font-semibold leading-tight">{r.item.name}</span>
         </div>
         {r.item.note && <div className="truncate text-[11px] text-muted">{r.item.note}</div>}
       </div>

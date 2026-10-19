@@ -43,8 +43,8 @@ export default function PlayScreen({ puzzle, isArchive, onComplete }: Props) {
         </button>
         <p className="mt-2 text-center text-xs text-muted">
           {game.moved
-            ? "Drag the tiles until the gradient feels right, then lock it in."
-            : "Drag the tiles to rank them, then lock in your order."}
+            ? "Rearrange until the gradient feels right, then lock it in."
+            : "Drag the tiles — or focus one and use ↑/↓ — then lock in your order."}
         </p>
       </div>
     </motion.div>

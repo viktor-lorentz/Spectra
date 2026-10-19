@@ -25,8 +25,10 @@ export function formatValue(value: number, set: PuzzleSet): string {
     text = compact.format(value);
   } else {
     const decimals = fmt === "integer" ? 0 : (set.decimals ?? 0);
+    // Keep precision where it matters, but drop trailing zeros so a clean
+    // value like "1.5" doesn't read as "1.500".
     text = value.toLocaleString("en-US", {
-      minimumFractionDigits: decimals,
+      minimumFractionDigits: 0,
       maximumFractionDigits: decimals,
     });
   }
