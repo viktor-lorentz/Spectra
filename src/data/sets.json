@@ -9,14 +9,47 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Cucumber", "value": 15, "emoji": "🥒" },
-      { "name": "Apple", "value": 52, "emoji": "🍎" },
-      { "name": "Banana", "value": 89, "emoji": "🍌" },
-      { "name": "White bread", "value": 265, "emoji": "🍞" },
-      { "name": "Cheddar cheese", "value": 402, "emoji": "🧀" },
-      { "name": "Milk chocolate", "value": 535, "emoji": "🍫" },
-      { "name": "Butter", "value": 717, "emoji": "🧈" },
-      { "name": "Olive oil", "value": 884, "emoji": "🫒", "note": "Pure fat — the most calorie-dense food in most kitchens." }
+      {
+        "name": "Cucumber",
+        "value": 15,
+        "emoji": "🥒"
+      },
+      {
+        "name": "Apple",
+        "value": 52,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Banana",
+        "value": 89,
+        "emoji": "🍌"
+      },
+      {
+        "name": "White bread",
+        "value": 265,
+        "emoji": "🍞"
+      },
+      {
+        "name": "Cheddar cheese",
+        "value": 402,
+        "emoji": "🧀"
+      },
+      {
+        "name": "Milk chocolate",
+        "value": 535,
+        "emoji": "🍫"
+      },
+      {
+        "name": "Butter",
+        "value": 717,
+        "emoji": "🧈"
+      },
+      {
+        "name": "Olive oil",
+        "value": 884,
+        "emoji": "🫒",
+        "note": "Pure fat — the most calorie-dense food in most kitchens."
+      }
     ]
   },
   {
@@ -29,14 +62,48 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Bell pepper", "value": 0, "emoji": "🫑", "note": "Zero heat — the only pepper with no capsaicin to speak of." },
-      { "name": "Poblano", "value": 1500, "emoji": "🌶️" },
-      { "name": "Jalapeño", "value": 5000, "emoji": "🌶️" },
-      { "name": "Serrano", "value": 15000, "emoji": "🌶️" },
-      { "name": "Cayenne", "value": 40000, "emoji": "🌶️" },
-      { "name": "Habanero", "value": 200000, "emoji": "🌶️" },
-      { "name": "Ghost pepper", "value": 1000000, "emoji": "👻" },
-      { "name": "Carolina Reaper", "value": 2200000, "emoji": "🔥", "note": "Held the world-record title as the hottest chilli for years." }
+      {
+        "name": "Bell pepper",
+        "value": 0,
+        "emoji": "🫑",
+        "note": "Zero heat — the only pepper with no capsaicin to speak of."
+      },
+      {
+        "name": "Poblano",
+        "value": 1500,
+        "emoji": "🌶️"
+      },
+      {
+        "name": "Jalapeño",
+        "value": 5000,
+        "emoji": "🌶️"
+      },
+      {
+        "name": "Serrano",
+        "value": 15000,
+        "emoji": "🌶️"
+      },
+      {
+        "name": "Cayenne",
+        "value": 40000,
+        "emoji": "🌶️"
+      },
+      {
+        "name": "Habanero",
+        "value": 200000,
+        "emoji": "🌶️"
+      },
+      {
+        "name": "Ghost pepper",
+        "value": 1000000,
+        "emoji": "👻"
+      },
+      {
+        "name": "Carolina Reaper",
+        "value": 2200000,
+        "emoji": "🔥",
+        "note": "Held the world-record title as the hottest chilli for years."
+      }
     ]
   },
   {
@@ -49,14 +116,47 @@
     "category": "drink",
     "format": "integer",
     "items": [
-      { "name": "Decaf coffee", "value": 3, "emoji": "☕" },
-      { "name": "Hot cocoa", "value": 5, "emoji": "🍫" },
-      { "name": "Green tea", "value": 28, "emoji": "🍵" },
-      { "name": "Black tea", "value": 47, "emoji": "🍵" },
-      { "name": "Espresso shot", "value": 63, "emoji": "☕" },
-      { "name": "Energy drink", "value": 80, "emoji": "⚡" },
-      { "name": "Brewed coffee", "value": 95, "emoji": "☕" },
-      { "name": "Cold brew (16oz)", "value": 205, "emoji": "🧊", "note": "Long steep, lots of coffee — the caffeine stacks up fast." }
+      {
+        "name": "Decaf coffee",
+        "value": 3,
+        "emoji": "☕"
+      },
+      {
+        "name": "Hot cocoa",
+        "value": 5,
+        "emoji": "🍫"
+      },
+      {
+        "name": "Green tea",
+        "value": 28,
+        "emoji": "🍵"
+      },
+      {
+        "name": "Black tea",
+        "value": 47,
+        "emoji": "🍵"
+      },
+      {
+        "name": "Espresso shot",
+        "value": 63,
+        "emoji": "☕"
+      },
+      {
+        "name": "Energy drink",
+        "value": 80,
+        "emoji": "⚡"
+      },
+      {
+        "name": "Brewed coffee",
+        "value": 95,
+        "emoji": "☕"
+      },
+      {
+        "name": "Cold brew (16oz)",
+        "value": 205,
+        "emoji": "🧊",
+        "note": "Long steep, lots of coffee — the caffeine stacks up fast."
+      }
     ]
   },
   {
@@ -69,14 +169,46 @@
     "category": "drink",
     "format": "integer",
     "items": [
-      { "name": "Sparkling water", "value": 0, "emoji": "💧" },
-      { "name": "Coconut water", "value": 11, "emoji": "🥥" },
-      { "name": "Whole milk", "value": 18, "emoji": "🥛" },
-      { "name": "Orange juice", "value": 33, "emoji": "🍊" },
-      { "name": "Sprite", "value": 38, "emoji": "🥤" },
-      { "name": "Coca-Cola", "value": 39, "emoji": "🥤" },
-      { "name": "Mountain Dew", "value": 46, "emoji": "🥤" },
-      { "name": "Grape soda", "value": 54, "emoji": "🍇" }
+      {
+        "name": "Sparkling water",
+        "value": 0,
+        "emoji": "💧"
+      },
+      {
+        "name": "Coconut water",
+        "value": 11,
+        "emoji": "🥥"
+      },
+      {
+        "name": "Whole milk",
+        "value": 18,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Orange juice",
+        "value": 33,
+        "emoji": "🍊"
+      },
+      {
+        "name": "Sprite",
+        "value": 38,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Coca-Cola",
+        "value": 39,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Mountain Dew",
+        "value": 46,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Grape soda",
+        "value": 54,
+        "emoji": "🍇"
+      }
     ]
   },
   {
@@ -90,14 +222,47 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Lemon", "value": 2.5, "emoji": "🍋" },
-      { "name": "Strawberry", "value": 4.9, "emoji": "🍓" },
-      { "name": "Watermelon", "value": 6.2, "emoji": "🍉" },
-      { "name": "Orange", "value": 9, "emoji": "🍊" },
-      { "name": "Apple", "value": 10, "emoji": "🍎" },
-      { "name": "Banana", "value": 12, "emoji": "🍌" },
-      { "name": "Grapes", "value": 16, "emoji": "🍇" },
-      { "name": "Dried dates", "value": 63, "emoji": "🌴", "note": "Dried fruit concentrates the sugar — over 60% by weight." }
+      {
+        "name": "Lemon",
+        "value": 2.5,
+        "emoji": "🍋"
+      },
+      {
+        "name": "Strawberry",
+        "value": 4.9,
+        "emoji": "🍓"
+      },
+      {
+        "name": "Watermelon",
+        "value": 6.2,
+        "emoji": "🍉"
+      },
+      {
+        "name": "Orange",
+        "value": 9,
+        "emoji": "🍊"
+      },
+      {
+        "name": "Apple",
+        "value": 10,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Banana",
+        "value": 12,
+        "emoji": "🍌"
+      },
+      {
+        "name": "Grapes",
+        "value": 16,
+        "emoji": "🍇"
+      },
+      {
+        "name": "Dried dates",
+        "value": 63,
+        "emoji": "🌴",
+        "note": "Dried fruit concentrates the sugar — over 60% by weight."
+      }
     ]
   },
   {
@@ -111,14 +276,46 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Lettuce", "value": 1.4, "emoji": "🥬" },
-      { "name": "Cooked rice", "value": 2.7, "emoji": "🍚" },
-      { "name": "Tofu", "value": 8, "emoji": "🍱" },
-      { "name": "Egg", "value": 13, "emoji": "🥚" },
-      { "name": "Canned tuna", "value": 26, "emoji": "🐟" },
-      { "name": "Chicken breast", "value": 31, "emoji": "🍗" },
-      { "name": "Beef jerky", "value": 33, "emoji": "🥩" },
-      { "name": "Parmesan", "value": 38, "emoji": "🧀" }
+      {
+        "name": "Lettuce",
+        "value": 1.4,
+        "emoji": "🥬"
+      },
+      {
+        "name": "Cooked rice",
+        "value": 2.7,
+        "emoji": "🍚"
+      },
+      {
+        "name": "Tofu",
+        "value": 8,
+        "emoji": "🍱"
+      },
+      {
+        "name": "Egg",
+        "value": 13,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Canned tuna",
+        "value": 26,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Chicken breast",
+        "value": 31,
+        "emoji": "🍗"
+      },
+      {
+        "name": "Beef jerky",
+        "value": 33,
+        "emoji": "🥩"
+      },
+      {
+        "name": "Parmesan",
+        "value": 38,
+        "emoji": "🧀"
+      }
     ]
   },
   {
@@ -131,14 +328,46 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Apple slices", "value": 15, "emoji": "🍎" },
-      { "name": "Small fries", "value": 230, "emoji": "🍟" },
-      { "name": "Hamburger", "value": 250, "emoji": "🍔" },
-      { "name": "Cheeseburger", "value": 300, "emoji": "🍔" },
-      { "name": "McChicken", "value": 400, "emoji": "🍗" },
-      { "name": "Large fries", "value": 490, "emoji": "🍟" },
-      { "name": "Quarter Pounder", "value": 520, "emoji": "🍔" },
-      { "name": "Big Mac", "value": 563, "emoji": "🍔" }
+      {
+        "name": "Apple slices",
+        "value": 15,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Small fries",
+        "value": 230,
+        "emoji": "🍟"
+      },
+      {
+        "name": "Hamburger",
+        "value": 250,
+        "emoji": "🍔"
+      },
+      {
+        "name": "Cheeseburger",
+        "value": 300,
+        "emoji": "🍔"
+      },
+      {
+        "name": "McChicken",
+        "value": 400,
+        "emoji": "🍗"
+      },
+      {
+        "name": "Large fries",
+        "value": 490,
+        "emoji": "🍟"
+      },
+      {
+        "name": "Quarter Pounder",
+        "value": 520,
+        "emoji": "🍔"
+      },
+      {
+        "name": "Big Mac",
+        "value": 563,
+        "emoji": "🍔"
+      }
     ]
   },
   {
@@ -151,14 +380,47 @@
     "category": "drink",
     "format": "integer",
     "items": [
-      { "name": "Light beer", "value": 4, "emoji": "🍺" },
-      { "name": "Lager", "value": 5, "emoji": "🍺" },
-      { "name": "Red wine", "value": 13, "emoji": "🍷" },
-      { "name": "Sake", "value": 16, "emoji": "🍶" },
-      { "name": "Port", "value": 20, "emoji": "🍷" },
-      { "name": "Coffee liqueur", "value": 25, "emoji": "🍸" },
-      { "name": "Vodka", "value": 40, "emoji": "🍸" },
-      { "name": "Overproof rum", "value": 75, "emoji": "🔥", "note": "Bottled at up to 75% — flammable, and it shows." }
+      {
+        "name": "Light beer",
+        "value": 4,
+        "emoji": "🍺"
+      },
+      {
+        "name": "Lager",
+        "value": 5,
+        "emoji": "🍺"
+      },
+      {
+        "name": "Red wine",
+        "value": 13,
+        "emoji": "🍷"
+      },
+      {
+        "name": "Sake",
+        "value": 16,
+        "emoji": "🍶"
+      },
+      {
+        "name": "Port",
+        "value": 20,
+        "emoji": "🍷"
+      },
+      {
+        "name": "Coffee liqueur",
+        "value": 25,
+        "emoji": "🍸"
+      },
+      {
+        "name": "Vodka",
+        "value": 40,
+        "emoji": "🍸"
+      },
+      {
+        "name": "Overproof rum",
+        "value": 75,
+        "emoji": "🔥",
+        "note": "Bottled at up to 75% — flammable, and it shows."
+      }
     ]
   },
   {
@@ -171,14 +433,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Mouse", "value": 2, "emoji": "🐭" },
-      { "name": "Rabbit", "value": 9, "emoji": "🐇" },
-      { "name": "Dog", "value": 12, "emoji": "🐶" },
-      { "name": "Cat", "value": 15, "emoji": "🐱" },
-      { "name": "Horse", "value": 27, "emoji": "🐎" },
-      { "name": "Chimpanzee", "value": 40, "emoji": "🐒" },
-      { "name": "Elephant", "value": 65, "emoji": "🐘" },
-      { "name": "Giant tortoise", "value": 150, "emoji": "🐢", "note": "Some have outlived the people who first caught them." }
+      {
+        "name": "Mouse",
+        "value": 2,
+        "emoji": "🐭"
+      },
+      {
+        "name": "Rabbit",
+        "value": 9,
+        "emoji": "🐇"
+      },
+      {
+        "name": "Dog",
+        "value": 12,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Cat",
+        "value": 15,
+        "emoji": "🐱"
+      },
+      {
+        "name": "Horse",
+        "value": 27,
+        "emoji": "🐎"
+      },
+      {
+        "name": "Chimpanzee",
+        "value": 40,
+        "emoji": "🐒"
+      },
+      {
+        "name": "Elephant",
+        "value": 65,
+        "emoji": "🐘"
+      },
+      {
+        "name": "Giant tortoise",
+        "value": 150,
+        "emoji": "🐢",
+        "note": "Some have outlived the people who first caught them."
+      }
     ]
   },
   {
@@ -191,14 +486,46 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Hippo", "value": 30, "emoji": "🦛" },
-      { "name": "Elephant", "value": 40, "emoji": "🐘" },
-      { "name": "Human (sprint)", "value": 45, "emoji": "🏃" },
-      { "name": "Ostrich", "value": 70, "emoji": "🦤" },
-      { "name": "Greyhound", "value": 74, "emoji": "🐕" },
-      { "name": "Lion", "value": 80, "emoji": "🦁" },
-      { "name": "Pronghorn", "value": 98, "emoji": "🦌" },
-      { "name": "Cheetah", "value": 112, "emoji": "🐆" }
+      {
+        "name": "Hippo",
+        "value": 30,
+        "emoji": "🦛"
+      },
+      {
+        "name": "Elephant",
+        "value": 40,
+        "emoji": "🐘"
+      },
+      {
+        "name": "Human (sprint)",
+        "value": 45,
+        "emoji": "🏃"
+      },
+      {
+        "name": "Ostrich",
+        "value": 70,
+        "emoji": "🦤"
+      },
+      {
+        "name": "Greyhound",
+        "value": 74,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Lion",
+        "value": 80,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Pronghorn",
+        "value": 98,
+        "emoji": "🦌"
+      },
+      {
+        "name": "Cheetah",
+        "value": 112,
+        "emoji": "🐆"
+      }
     ]
   },
   {
@@ -211,14 +538,46 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "House cat", "value": 4, "emoji": "🐱" },
-      { "name": "Bulldog", "value": 25, "emoji": "🐶" },
-      { "name": "Human", "value": 70, "emoji": "🧍" },
-      { "name": "Lion", "value": 190, "emoji": "🦁" },
-      { "name": "Polar bear", "value": 450, "emoji": "🐻‍❄️" },
-      { "name": "Horse", "value": 500, "emoji": "🐎" },
-      { "name": "Hippo", "value": 1500, "emoji": "🦛" },
-      { "name": "African elephant", "value": 6000, "emoji": "🐘" }
+      {
+        "name": "House cat",
+        "value": 4,
+        "emoji": "🐱"
+      },
+      {
+        "name": "Bulldog",
+        "value": 25,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Human",
+        "value": 70,
+        "emoji": "🧍"
+      },
+      {
+        "name": "Lion",
+        "value": 190,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Polar bear",
+        "value": 450,
+        "emoji": "🐻‍❄️"
+      },
+      {
+        "name": "Horse",
+        "value": 500,
+        "emoji": "🐎"
+      },
+      {
+        "name": "Hippo",
+        "value": 1500,
+        "emoji": "🦛"
+      },
+      {
+        "name": "African elephant",
+        "value": 6000,
+        "emoji": "🐘"
+      }
     ]
   },
   {
@@ -231,14 +590,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Hamster", "value": 16, "emoji": "🐹" },
-      { "name": "Rabbit", "value": 31, "emoji": "🐇" },
-      { "name": "Dog", "value": 63, "emoji": "🐶" },
-      { "name": "Lion", "value": 110, "emoji": "🦁" },
-      { "name": "Human", "value": 280, "emoji": "👶" },
-      { "name": "Horse", "value": 340, "emoji": "🐎" },
-      { "name": "Giraffe", "value": 450, "emoji": "🦒" },
-      { "name": "Elephant", "value": 640, "emoji": "🐘", "note": "Nearly two years — the longest of any land mammal." }
+      {
+        "name": "Hamster",
+        "value": 16,
+        "emoji": "🐹"
+      },
+      {
+        "name": "Rabbit",
+        "value": 31,
+        "emoji": "🐇"
+      },
+      {
+        "name": "Dog",
+        "value": 63,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Lion",
+        "value": 110,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Human",
+        "value": 280,
+        "emoji": "👶"
+      },
+      {
+        "name": "Horse",
+        "value": 340,
+        "emoji": "🐎"
+      },
+      {
+        "name": "Giraffe",
+        "value": 450,
+        "emoji": "🦒"
+      },
+      {
+        "name": "Elephant",
+        "value": 640,
+        "emoji": "🐘",
+        "note": "Nearly two years — the longest of any land mammal."
+      }
     ]
   },
   {
@@ -251,14 +643,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Human", "value": 120, "emoji": "🧍" },
-      { "name": "Lion", "value": 650, "emoji": "🦁" },
-      { "name": "Grizzly bear", "value": 975, "emoji": "🐻" },
-      { "name": "Hyena", "value": 1100, "emoji": "🐺" },
-      { "name": "Jaguar", "value": 1500, "emoji": "🐆" },
-      { "name": "Hippo", "value": 1800, "emoji": "🦛" },
-      { "name": "Nile crocodile", "value": 3000, "emoji": "🐊" },
-      { "name": "Saltwater crocodile", "value": 3700, "emoji": "🐊", "note": "The strongest bite ever measured in a living animal." }
+      {
+        "name": "Human",
+        "value": 120,
+        "emoji": "🧍"
+      },
+      {
+        "name": "Lion",
+        "value": 650,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Grizzly bear",
+        "value": 975,
+        "emoji": "🐻"
+      },
+      {
+        "name": "Hyena",
+        "value": 1100,
+        "emoji": "🐺"
+      },
+      {
+        "name": "Jaguar",
+        "value": 1500,
+        "emoji": "🐆"
+      },
+      {
+        "name": "Hippo",
+        "value": 1800,
+        "emoji": "🦛"
+      },
+      {
+        "name": "Nile crocodile",
+        "value": 3000,
+        "emoji": "🐊"
+      },
+      {
+        "name": "Saltwater crocodile",
+        "value": 3700,
+        "emoji": "🐊",
+        "note": "The strongest bite ever measured in a living animal."
+      }
     ]
   },
   {
@@ -271,14 +696,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Blue whale", "value": 8, "emoji": "🐋", "note": "A heart the size of a car, beating just a few times a minute." },
-      { "name": "Elephant", "value": 28, "emoji": "🐘" },
-      { "name": "Human", "value": 70, "emoji": "🧍" },
-      { "name": "Cat", "value": 150, "emoji": "🐱" },
-      { "name": "Rabbit", "value": 205, "emoji": "🐇" },
-      { "name": "Chicken", "value": 275, "emoji": "🐔" },
-      { "name": "Mouse", "value": 500, "emoji": "🐭" },
-      { "name": "Hummingbird", "value": 1200, "emoji": "🐦" }
+      {
+        "name": "Blue whale",
+        "value": 8,
+        "emoji": "🐋",
+        "note": "A heart the size of a car, beating just a few times a minute."
+      },
+      {
+        "name": "Elephant",
+        "value": 28,
+        "emoji": "🐘"
+      },
+      {
+        "name": "Human",
+        "value": 70,
+        "emoji": "🧍"
+      },
+      {
+        "name": "Cat",
+        "value": 150,
+        "emoji": "🐱"
+      },
+      {
+        "name": "Rabbit",
+        "value": 205,
+        "emoji": "🐇"
+      },
+      {
+        "name": "Chicken",
+        "value": 275,
+        "emoji": "🐔"
+      },
+      {
+        "name": "Mouse",
+        "value": 500,
+        "emoji": "🐭"
+      },
+      {
+        "name": "Hummingbird",
+        "value": 1200,
+        "emoji": "🐦"
+      }
     ]
   },
   {
@@ -291,14 +749,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Quail", "value": 9, "emoji": "🥚" },
-      { "name": "Pigeon", "value": 17, "emoji": "🥚" },
-      { "name": "Chicken", "value": 50, "emoji": "🥚" },
-      { "name": "Duck", "value": 70, "emoji": "🦆" },
-      { "name": "Turkey", "value": 85, "emoji": "🦃" },
-      { "name": "Goose", "value": 140, "emoji": "🪿" },
-      { "name": "Emu", "value": 450, "emoji": "\ud83e\udab6" },
-      { "name": "Ostrich", "value": 1400, "emoji": "🦤", "note": "The biggest egg of any living bird — about two dozen hen's eggs." }
+      {
+        "name": "Quail",
+        "value": 9,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Pigeon",
+        "value": 17,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Chicken",
+        "value": 50,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Duck",
+        "value": 70,
+        "emoji": "🦆"
+      },
+      {
+        "name": "Turkey",
+        "value": 85,
+        "emoji": "🦃"
+      },
+      {
+        "name": "Goose",
+        "value": 140,
+        "emoji": "🪿"
+      },
+      {
+        "name": "Emu",
+        "value": 450,
+        "emoji": "\ud83e\udab6"
+      },
+      {
+        "name": "Ostrich",
+        "value": 1400,
+        "emoji": "🦤",
+        "note": "The biggest egg of any living bird — about two dozen hen's eggs."
+      }
     ]
   },
   {
@@ -311,14 +802,46 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Chihuahua", "value": 2, "emoji": "🐶" },
-      { "name": "Pug", "value": 8, "emoji": "🐶" },
-      { "name": "Beagle", "value": 11, "emoji": "🐶" },
-      { "name": "Border collie", "value": 18, "emoji": "🐕" },
-      { "name": "Labrador", "value": 30, "emoji": "🐕‍🦺" },
-      { "name": "German shepherd", "value": 34, "emoji": "🐕‍🦺" },
-      { "name": "Rottweiler", "value": 50, "emoji": "🐕" },
-      { "name": "Great Dane", "value": 70, "emoji": "🐕" }
+      {
+        "name": "Chihuahua",
+        "value": 2,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Pug",
+        "value": 8,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Beagle",
+        "value": 11,
+        "emoji": "🐶"
+      },
+      {
+        "name": "Border collie",
+        "value": 18,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Labrador",
+        "value": 30,
+        "emoji": "🐕‍🦺"
+      },
+      {
+        "name": "German shepherd",
+        "value": 34,
+        "emoji": "🐕‍🦺"
+      },
+      {
+        "name": "Rottweiler",
+        "value": 50,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Great Dane",
+        "value": 70,
+        "emoji": "🐕"
+      }
     ]
   },
   {
@@ -332,14 +855,46 @@
     "format": "number",
     "decimals": 2,
     "items": [
-      { "name": "Mercury", "value": 0.39, "emoji": "☉" },
-      { "name": "Venus", "value": 0.72, "emoji": "♀" },
-      { "name": "Earth", "value": 1, "emoji": "🌍" },
-      { "name": "Mars", "value": 1.52, "emoji": "🔴" },
-      { "name": "Jupiter", "value": 5.2, "emoji": "🪐" },
-      { "name": "Saturn", "value": 9.5, "emoji": "🪐" },
-      { "name": "Uranus", "value": 19.2, "emoji": "🪐" },
-      { "name": "Neptune", "value": 30.1, "emoji": "🔵" }
+      {
+        "name": "Mercury",
+        "value": 0.39,
+        "emoji": "☉"
+      },
+      {
+        "name": "Venus",
+        "value": 0.72,
+        "emoji": "♀"
+      },
+      {
+        "name": "Earth",
+        "value": 1,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Mars",
+        "value": 1.52,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Jupiter",
+        "value": 5.2,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Saturn",
+        "value": 9.5,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Uranus",
+        "value": 19.2,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Neptune",
+        "value": 30.1,
+        "emoji": "🔵"
+      }
     ]
   },
   {
@@ -352,14 +907,47 @@
     "category": "space",
     "format": "integer",
     "items": [
-      { "name": "Mercury", "value": 4879, "emoji": "☉" },
-      { "name": "Mars", "value": 6779, "emoji": "🔴" },
-      { "name": "Venus", "value": 12104, "emoji": "♀" },
-      { "name": "Earth", "value": 12742, "emoji": "🌍" },
-      { "name": "Neptune", "value": 49244, "emoji": "🔵" },
-      { "name": "Uranus", "value": 50724, "emoji": "🪐" },
-      { "name": "Saturn", "value": 120536, "emoji": "🪐" },
-      { "name": "Jupiter", "value": 139820, "emoji": "🪐", "note": "You could fit over 1,300 Earths inside it." }
+      {
+        "name": "Mercury",
+        "value": 4879,
+        "emoji": "☉"
+      },
+      {
+        "name": "Mars",
+        "value": 6779,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Venus",
+        "value": 12104,
+        "emoji": "♀"
+      },
+      {
+        "name": "Earth",
+        "value": 12742,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Neptune",
+        "value": 49244,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Uranus",
+        "value": 50724,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Saturn",
+        "value": 120536,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Jupiter",
+        "value": 139820,
+        "emoji": "🪐",
+        "note": "You could fit over 1,300 Earths inside it."
+      }
     ]
   },
   {
@@ -372,14 +960,47 @@
     "category": "space",
     "format": "integer",
     "items": [
-      { "name": "Jupiter", "value": 10, "emoji": "🪐" },
-      { "name": "Saturn", "value": 11, "emoji": "🪐" },
-      { "name": "Neptune", "value": 16, "emoji": "🔵" },
-      { "name": "Uranus", "value": 17, "emoji": "🪐" },
-      { "name": "Earth", "value": 24, "emoji": "🌍" },
-      { "name": "Mars", "value": 25, "emoji": "🔴" },
-      { "name": "Mercury", "value": 1408, "emoji": "☉" },
-      { "name": "Venus", "value": 5832, "emoji": "♀", "note": "A day on Venus is longer than its year." }
+      {
+        "name": "Jupiter",
+        "value": 10,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Saturn",
+        "value": 11,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Neptune",
+        "value": 16,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Uranus",
+        "value": 17,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Earth",
+        "value": 24,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Mars",
+        "value": 25,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Mercury",
+        "value": 1408,
+        "emoji": "☉"
+      },
+      {
+        "name": "Venus",
+        "value": 5832,
+        "emoji": "♀",
+        "note": "A day on Venus is longer than its year."
+      }
     ]
   },
   {
@@ -392,14 +1013,47 @@
     "category": "space",
     "format": "integer",
     "items": [
-      { "name": "Mercury", "value": 0, "emoji": "☉" },
-      { "name": "Earth", "value": 1, "emoji": "🌍" },
-      { "name": "Mars", "value": 2, "emoji": "🔴" },
-      { "name": "Pluto", "value": 5, "emoji": "❄️" },
-      { "name": "Neptune", "value": 16, "emoji": "🔵" },
-      { "name": "Uranus", "value": 28, "emoji": "🪐" },
-      { "name": "Jupiter", "value": 95, "emoji": "🪐" },
-      { "name": "Saturn", "value": 146, "emoji": "🪐", "note": "Recently overtook Jupiter as the planet with the most moons." }
+      {
+        "name": "Mercury",
+        "value": 0,
+        "emoji": "☉"
+      },
+      {
+        "name": "Earth",
+        "value": 1,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Mars",
+        "value": 2,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Pluto",
+        "value": 5,
+        "emoji": "❄️"
+      },
+      {
+        "name": "Neptune",
+        "value": 16,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Uranus",
+        "value": 28,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Jupiter",
+        "value": 95,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Saturn",
+        "value": 146,
+        "emoji": "🪐",
+        "note": "Recently overtook Jupiter as the planet with the most moons."
+      }
     ]
   },
   {
@@ -412,14 +1066,47 @@
     "category": "space",
     "format": "integer",
     "items": [
-      { "name": "Pluto", "value": -229, "emoji": "❄️" },
-      { "name": "Neptune", "value": -201, "emoji": "🔵" },
-      { "name": "Uranus", "value": -197, "emoji": "🪐" },
-      { "name": "Mars", "value": -63, "emoji": "🔴" },
-      { "name": "Earth", "value": 15, "emoji": "🌍" },
-      { "name": "Mercury", "value": 167, "emoji": "☉" },
-      { "name": "Venus", "value": 464, "emoji": "♀", "note": "Hotter than Mercury despite being farther out — thank the greenhouse clouds." },
-      { "name": "Sun's surface", "value": 5500, "emoji": "☀️" }
+      {
+        "name": "Pluto",
+        "value": -229,
+        "emoji": "❄️"
+      },
+      {
+        "name": "Neptune",
+        "value": -201,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Uranus",
+        "value": -197,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Mars",
+        "value": -63,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Earth",
+        "value": 15,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Mercury",
+        "value": 167,
+        "emoji": "☉"
+      },
+      {
+        "name": "Venus",
+        "value": 464,
+        "emoji": "♀",
+        "note": "Hotter than Mercury despite being farther out — thank the greenhouse clouds."
+      },
+      {
+        "name": "Sun's surface",
+        "value": 5500,
+        "emoji": "☀️"
+      }
     ]
   },
   {
@@ -432,14 +1119,47 @@
     "category": "space",
     "format": "integer",
     "items": [
-      { "name": "Space Station", "value": 400, "emoji": "🛰️" },
-      { "name": "The Moon", "value": 384400, "emoji": "🌕" },
-      { "name": "Venus (closest)", "value": 41000000, "emoji": "♀" },
-      { "name": "Mars (closest)", "value": 55000000, "emoji": "🔴" },
-      { "name": "The Sun", "value": 149600000, "emoji": "☀️" },
-      { "name": "Jupiter (closest)", "value": 588000000, "emoji": "🪐" },
-      { "name": "Pluto", "value": 5900000000, "emoji": "❄️" },
-      { "name": "Voyager 1", "value": 24000000000, "emoji": "🛸", "note": "The most distant human-made object, still sending signals home." }
+      {
+        "name": "Space Station",
+        "value": 400,
+        "emoji": "🛰️"
+      },
+      {
+        "name": "The Moon",
+        "value": 384400,
+        "emoji": "🌕"
+      },
+      {
+        "name": "Venus (closest)",
+        "value": 41000000,
+        "emoji": "♀"
+      },
+      {
+        "name": "Mars (closest)",
+        "value": 55000000,
+        "emoji": "🔴"
+      },
+      {
+        "name": "The Sun",
+        "value": 149600000,
+        "emoji": "☀️"
+      },
+      {
+        "name": "Jupiter (closest)",
+        "value": 588000000,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Pluto",
+        "value": 5900000000,
+        "emoji": "❄️"
+      },
+      {
+        "name": "Voyager 1",
+        "value": 24000000000,
+        "emoji": "🛸",
+        "note": "The most distant human-made object, still sending signals home."
+      }
     ]
   },
   {
@@ -452,14 +1172,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Iceland", "value": 390000, "emoji": "🇮🇸" },
-      { "name": "New Zealand", "value": 5200000, "emoji": "🇳🇿" },
-      { "name": "Sweden", "value": 10500000, "emoji": "🇸🇪" },
-      { "name": "Canada", "value": 40000000, "emoji": "🇨🇦" },
-      { "name": "Germany", "value": 84000000, "emoji": "🇩🇪" },
-      { "name": "Japan", "value": 125000000, "emoji": "🇯🇵" },
-      { "name": "United States", "value": 335000000, "emoji": "🇺🇸" },
-      { "name": "India", "value": 1428000000, "emoji": "🇮🇳", "note": "The most populous country on Earth." }
+      {
+        "name": "Iceland",
+        "value": 390000,
+        "emoji": "🇮🇸"
+      },
+      {
+        "name": "New Zealand",
+        "value": 5200000,
+        "emoji": "🇳🇿"
+      },
+      {
+        "name": "Sweden",
+        "value": 10500000,
+        "emoji": "🇸🇪"
+      },
+      {
+        "name": "Canada",
+        "value": 40000000,
+        "emoji": "🇨🇦"
+      },
+      {
+        "name": "Germany",
+        "value": 84000000,
+        "emoji": "🇩🇪"
+      },
+      {
+        "name": "Japan",
+        "value": 125000000,
+        "emoji": "🇯🇵"
+      },
+      {
+        "name": "United States",
+        "value": 335000000,
+        "emoji": "🇺🇸"
+      },
+      {
+        "name": "India",
+        "value": 1428000000,
+        "emoji": "🇮🇳",
+        "note": "The most populous country on Earth."
+      }
     ]
   },
   {
@@ -472,14 +1225,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Monaco", "value": 2, "emoji": "🇲🇨" },
-      { "name": "San Marino", "value": 61, "emoji": "🇸🇲" },
-      { "name": "Singapore", "value": 735, "emoji": "🇸🇬" },
-      { "name": "Jamaica", "value": 10991, "emoji": "🇯🇲" },
-      { "name": "Iceland", "value": 103000, "emoji": "🇮🇸" },
-      { "name": "Japan", "value": 377975, "emoji": "🇯🇵" },
-      { "name": "India", "value": 3287263, "emoji": "🇮🇳" },
-      { "name": "Russia", "value": 17098242, "emoji": "🇷🇺", "note": "The largest country — spanning eleven time zones." }
+      {
+        "name": "Monaco",
+        "value": 2,
+        "emoji": "🇲🇨"
+      },
+      {
+        "name": "San Marino",
+        "value": 61,
+        "emoji": "🇸🇲"
+      },
+      {
+        "name": "Singapore",
+        "value": 735,
+        "emoji": "🇸🇬"
+      },
+      {
+        "name": "Jamaica",
+        "value": 10991,
+        "emoji": "🇯🇲"
+      },
+      {
+        "name": "Iceland",
+        "value": 103000,
+        "emoji": "🇮🇸"
+      },
+      {
+        "name": "Japan",
+        "value": 377975,
+        "emoji": "🇯🇵"
+      },
+      {
+        "name": "India",
+        "value": 3287263,
+        "emoji": "🇮🇳"
+      },
+      {
+        "name": "Russia",
+        "value": 17098242,
+        "emoji": "🇷🇺",
+        "note": "The largest country — spanning eleven time zones."
+      }
     ]
   },
   {
@@ -492,14 +1278,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Reykjavík", "value": 135000, "emoji": "🏙️" },
-      { "name": "Amsterdam", "value": 920000, "emoji": "🏙️" },
-      { "name": "Berlin", "value": 3600000, "emoji": "🏙️" },
-      { "name": "London", "value": 8900000, "emoji": "🏙️" },
-      { "name": "Cairo", "value": 10000000, "emoji": "🏙️" },
-      { "name": "Beijing", "value": 21500000, "emoji": "🏙️" },
-      { "name": "Delhi", "value": 32900000, "emoji": "🏙️" },
-      { "name": "Tokyo", "value": 37000000, "emoji": "🏙️", "note": "The largest metropolitan area in the world." }
+      {
+        "name": "Reykjavík",
+        "value": 135000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Amsterdam",
+        "value": 920000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Berlin",
+        "value": 3600000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "London",
+        "value": 8900000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Cairo",
+        "value": 10000000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Beijing",
+        "value": 21500000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Delhi",
+        "value": 32900000,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Tokyo",
+        "value": 37000000,
+        "emoji": "🏙️",
+        "note": "The largest metropolitan area in the world."
+      }
     ]
   },
   {
@@ -512,14 +1331,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Ben Nevis", "value": 1345, "emoji": "⛰️" },
-      { "name": "Mt Fuji", "value": 3776, "emoji": "🗻" },
-      { "name": "Matterhorn", "value": 4478, "emoji": "🏔️" },
-      { "name": "Mont Blanc", "value": 4808, "emoji": "🏔️" },
-      { "name": "Kilimanjaro", "value": 5895, "emoji": "🏔️" },
-      { "name": "Denali", "value": 6190, "emoji": "🏔️" },
-      { "name": "Aconcagua", "value": 6961, "emoji": "🏔️" },
-      { "name": "Everest", "value": 8849, "emoji": "🏔️", "note": "The highest point on Earth above sea level." }
+      {
+        "name": "Ben Nevis",
+        "value": 1345,
+        "emoji": "⛰️"
+      },
+      {
+        "name": "Mt Fuji",
+        "value": 3776,
+        "emoji": "🗻"
+      },
+      {
+        "name": "Matterhorn",
+        "value": 4478,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Mont Blanc",
+        "value": 4808,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Kilimanjaro",
+        "value": 5895,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Denali",
+        "value": 6190,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Aconcagua",
+        "value": 6961,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Everest",
+        "value": 8849,
+        "emoji": "🏔️",
+        "note": "The highest point on Earth above sea level."
+      }
     ]
   },
   {
@@ -532,14 +1384,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Statue of Liberty", "value": 93, "emoji": "🗽" },
-      { "name": "Big Ben", "value": 96, "emoji": "🕰️" },
-      { "name": "Great Pyramid", "value": 139, "emoji": "🔺" },
-      { "name": "Eiffel Tower", "value": 330, "emoji": "🗼" },
-      { "name": "Empire State", "value": 443, "emoji": "🏙️" },
-      { "name": "One World Trade", "value": 541, "emoji": "🏙️" },
-      { "name": "Shanghai Tower", "value": 632, "emoji": "🏙️" },
-      { "name": "Burj Khalifa", "value": 828, "emoji": "🏙️", "note": "The tallest building in the world." }
+      {
+        "name": "Statue of Liberty",
+        "value": 93,
+        "emoji": "🗽"
+      },
+      {
+        "name": "Big Ben",
+        "value": 96,
+        "emoji": "🕰️"
+      },
+      {
+        "name": "Great Pyramid",
+        "value": 139,
+        "emoji": "🔺"
+      },
+      {
+        "name": "Eiffel Tower",
+        "value": 330,
+        "emoji": "🗼"
+      },
+      {
+        "name": "Empire State",
+        "value": 443,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "One World Trade",
+        "value": 541,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Shanghai Tower",
+        "value": 632,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Burj Khalifa",
+        "value": 828,
+        "emoji": "🏙️",
+        "note": "The tallest building in the world."
+      }
     ]
   },
   {
@@ -552,14 +1437,46 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Thames", "value": 346, "emoji": "🌊" },
-      { "name": "Rhine", "value": 1233, "emoji": "🌊" },
-      { "name": "Danube", "value": 2850, "emoji": "🌊" },
-      { "name": "Volga", "value": 3531, "emoji": "🌊" },
-      { "name": "Mississippi", "value": 3730, "emoji": "🌊" },
-      { "name": "Yangtze", "value": 6300, "emoji": "🌊" },
-      { "name": "Amazon", "value": 6400, "emoji": "🌊" },
-      { "name": "Nile", "value": 6650, "emoji": "🌊" }
+      {
+        "name": "Thames",
+        "value": 346,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Rhine",
+        "value": 1233,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Danube",
+        "value": 2850,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Volga",
+        "value": 3531,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Mississippi",
+        "value": 3730,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Yangtze",
+        "value": 6300,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Amazon",
+        "value": 6400,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Nile",
+        "value": 6650,
+        "emoji": "🌊"
+      }
     ]
   },
   {
@@ -572,14 +1489,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Manhattan", "value": 59, "emoji": "🏙️" },
-      { "name": "Isle of Man", "value": 572, "emoji": "🏝️" },
-      { "name": "Bali", "value": 5780, "emoji": "🏝️" },
-      { "name": "Jamaica", "value": 10991, "emoji": "🏝️" },
-      { "name": "Sicily", "value": 25711, "emoji": "🏝️" },
-      { "name": "Ireland", "value": 84421, "emoji": "🏝️" },
-      { "name": "Great Britain", "value": 209331, "emoji": "🇬🇧" },
-      { "name": "Greenland", "value": 2166086, "emoji": "🇬🇱", "note": "The world's largest island that isn't a continent." }
+      {
+        "name": "Manhattan",
+        "value": 59,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Isle of Man",
+        "value": 572,
+        "emoji": "🏝️"
+      },
+      {
+        "name": "Bali",
+        "value": 5780,
+        "emoji": "🏝️"
+      },
+      {
+        "name": "Jamaica",
+        "value": 10991,
+        "emoji": "🏝️"
+      },
+      {
+        "name": "Sicily",
+        "value": 25711,
+        "emoji": "🏝️"
+      },
+      {
+        "name": "Ireland",
+        "value": 84421,
+        "emoji": "🏝️"
+      },
+      {
+        "name": "Great Britain",
+        "value": 209331,
+        "emoji": "🇬🇧"
+      },
+      {
+        "name": "Greenland",
+        "value": 2166086,
+        "emoji": "🇬🇱",
+        "note": "The world's largest island that isn't a continent."
+      }
     ]
   },
   {
@@ -592,14 +1542,46 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Reykjavík", "value": 5, "emoji": "🧊" },
-      { "name": "Moscow", "value": 6, "emoji": "❄️" },
-      { "name": "London", "value": 11, "emoji": "🌧️" },
-      { "name": "New York", "value": 13, "emoji": "🗽" },
-      { "name": "Rome", "value": 16, "emoji": "🇦️" },
-      { "name": "Cairo", "value": 22, "emoji": "🏵️" },
-      { "name": "Singapore", "value": 27, "emoji": "🌴" },
-      { "name": "Dubai", "value": 28, "emoji": "🏜️" }
+      {
+        "name": "Reykjavík",
+        "value": 5,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Moscow",
+        "value": 6,
+        "emoji": "❄️"
+      },
+      {
+        "name": "London",
+        "value": 11,
+        "emoji": "🌧️"
+      },
+      {
+        "name": "New York",
+        "value": 13,
+        "emoji": "🗽"
+      },
+      {
+        "name": "Rome",
+        "value": 16,
+        "emoji": "🇦️"
+      },
+      {
+        "name": "Cairo",
+        "value": 22,
+        "emoji": "🏵️"
+      },
+      {
+        "name": "Singapore",
+        "value": 27,
+        "emoji": "🌴"
+      },
+      {
+        "name": "Dubai",
+        "value": 28,
+        "emoji": "🏜️"
+      }
     ]
   },
   {
@@ -612,14 +1594,47 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Cairo", "value": 25, "emoji": "🏵️" },
-      { "name": "Los Angeles", "value": 380, "emoji": "🌴" },
-      { "name": "London", "value": 690, "emoji": "🌧️" },
-      { "name": "Rome", "value": 800, "emoji": "🇦️" },
-      { "name": "Tokyo", "value": 1530, "emoji": "🌂" },
-      { "name": "Mumbai", "value": 2200, "emoji": "🌧️" },
-      { "name": "Singapore", "value": 2340, "emoji": "⛈️" },
-      { "name": "Cherrapunji", "value": 11800, "emoji": "🌧️", "note": "One of the wettest inhabited places on Earth." }
+      {
+        "name": "Cairo",
+        "value": 25,
+        "emoji": "🏵️"
+      },
+      {
+        "name": "Los Angeles",
+        "value": 380,
+        "emoji": "🌴"
+      },
+      {
+        "name": "London",
+        "value": 690,
+        "emoji": "🌧️"
+      },
+      {
+        "name": "Rome",
+        "value": 800,
+        "emoji": "🇦️"
+      },
+      {
+        "name": "Tokyo",
+        "value": 1530,
+        "emoji": "🌂"
+      },
+      {
+        "name": "Mumbai",
+        "value": 2200,
+        "emoji": "🌧️"
+      },
+      {
+        "name": "Singapore",
+        "value": 2340,
+        "emoji": "⛈️"
+      },
+      {
+        "name": "Cherrapunji",
+        "value": 11800,
+        "emoji": "🌧️",
+        "note": "One of the wettest inhabited places on Earth."
+      }
     ]
   },
   {
@@ -632,14 +1647,46 @@
     "category": "history",
     "format": "year",
     "items": [
-      { "name": "The wheel", "value": -3500, "emoji": "🛤️" },
-      { "name": "Printing press", "value": 1440, "emoji": "📰" },
-      { "name": "Steam engine", "value": 1712, "emoji": "🚂" },
-      { "name": "Telephone", "value": 1876, "emoji": "☎️" },
-      { "name": "Airplane", "value": 1903, "emoji": "✈️" },
-      { "name": "Television", "value": 1927, "emoji": "📺" },
-      { "name": "The internet", "value": 1969, "emoji": "🌐" },
-      { "name": "Smartphone", "value": 2007, "emoji": "📱" }
+      {
+        "name": "The wheel",
+        "value": -3500,
+        "emoji": "🛤️"
+      },
+      {
+        "name": "Printing press",
+        "value": 1440,
+        "emoji": "📰"
+      },
+      {
+        "name": "Steam engine",
+        "value": 1712,
+        "emoji": "🚂"
+      },
+      {
+        "name": "Telephone",
+        "value": 1876,
+        "emoji": "☎️"
+      },
+      {
+        "name": "Airplane",
+        "value": 1903,
+        "emoji": "✈️"
+      },
+      {
+        "name": "Television",
+        "value": 1927,
+        "emoji": "📺"
+      },
+      {
+        "name": "The internet",
+        "value": 1969,
+        "emoji": "🌐"
+      },
+      {
+        "name": "Smartphone",
+        "value": 2007,
+        "emoji": "📱"
+      }
     ]
   },
   {
@@ -652,14 +1699,46 @@
     "category": "tech",
     "format": "year",
     "items": [
-      { "name": "Macintosh", "value": 1984, "emoji": "🖥️" },
-      { "name": "Game Boy", "value": 1989, "emoji": "🎮" },
-      { "name": "World Wide Web", "value": 1991, "emoji": "🌐" },
-      { "name": "DVD", "value": 1995, "emoji": "💿" },
-      { "name": "iPod", "value": 2001, "emoji": "🎵" },
-      { "name": "YouTube", "value": 2005, "emoji": "▶️" },
-      { "name": "iPhone", "value": 2007, "emoji": "📱" },
-      { "name": "iPad", "value": 2010, "emoji": "📱" }
+      {
+        "name": "Macintosh",
+        "value": 1984,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "Game Boy",
+        "value": 1989,
+        "emoji": "🎮"
+      },
+      {
+        "name": "World Wide Web",
+        "value": 1991,
+        "emoji": "🌐"
+      },
+      {
+        "name": "DVD",
+        "value": 1995,
+        "emoji": "💿"
+      },
+      {
+        "name": "iPod",
+        "value": 2001,
+        "emoji": "🎵"
+      },
+      {
+        "name": "YouTube",
+        "value": 2005,
+        "emoji": "▶️"
+      },
+      {
+        "name": "iPhone",
+        "value": 2007,
+        "emoji": "📱"
+      },
+      {
+        "name": "iPad",
+        "value": 2010,
+        "emoji": "📱"
+      }
     ]
   },
   {
@@ -672,14 +1751,46 @@
     "category": "tech",
     "format": "year",
     "items": [
-      { "name": "Atari 2600", "value": 1977, "emoji": "🕹️" },
-      { "name": "Nintendo NES", "value": 1983, "emoji": "🎮" },
-      { "name": "Game Boy", "value": 1989, "emoji": "🎮" },
-      { "name": "PlayStation", "value": 1994, "emoji": "🎮" },
-      { "name": "Xbox", "value": 2001, "emoji": "🎮" },
-      { "name": "Nintendo Wii", "value": 2006, "emoji": "🎮" },
-      { "name": "Nintendo Switch", "value": 2017, "emoji": "🎮" },
-      { "name": "PlayStation 5", "value": 2020, "emoji": "🎮" }
+      {
+        "name": "Atari 2600",
+        "value": 1977,
+        "emoji": "🕹️"
+      },
+      {
+        "name": "Nintendo NES",
+        "value": 1983,
+        "emoji": "🎮"
+      },
+      {
+        "name": "Game Boy",
+        "value": 1989,
+        "emoji": "🎮"
+      },
+      {
+        "name": "PlayStation",
+        "value": 1994,
+        "emoji": "🎮"
+      },
+      {
+        "name": "Xbox",
+        "value": 2001,
+        "emoji": "🎮"
+      },
+      {
+        "name": "Nintendo Wii",
+        "value": 2006,
+        "emoji": "🎮"
+      },
+      {
+        "name": "Nintendo Switch",
+        "value": 2017,
+        "emoji": "🎮"
+      },
+      {
+        "name": "PlayStation 5",
+        "value": 2020,
+        "emoji": "🎮"
+      }
     ]
   },
   {
@@ -692,14 +1803,46 @@
     "category": "tech",
     "format": "year",
     "items": [
-      { "name": "LinkedIn", "value": 2003, "emoji": "💼" },
-      { "name": "Facebook", "value": 2004, "emoji": "👍" },
-      { "name": "YouTube", "value": 2005, "emoji": "▶️" },
-      { "name": "Twitter", "value": 2006, "emoji": "🐦" },
-      { "name": "Instagram", "value": 2010, "emoji": "📷" },
-      { "name": "Snapchat", "value": 2011, "emoji": "👻" },
-      { "name": "TikTok", "value": 2016, "emoji": "🎵" },
-      { "name": "Threads", "value": 2023, "emoji": "🧩" }
+      {
+        "name": "LinkedIn",
+        "value": 2003,
+        "emoji": "💼"
+      },
+      {
+        "name": "Facebook",
+        "value": 2004,
+        "emoji": "👍"
+      },
+      {
+        "name": "YouTube",
+        "value": 2005,
+        "emoji": "▶️"
+      },
+      {
+        "name": "Twitter",
+        "value": 2006,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Instagram",
+        "value": 2010,
+        "emoji": "📷"
+      },
+      {
+        "name": "Snapchat",
+        "value": 2011,
+        "emoji": "👻"
+      },
+      {
+        "name": "TikTok",
+        "value": 2016,
+        "emoji": "🎵"
+      },
+      {
+        "name": "Threads",
+        "value": 2023,
+        "emoji": "🧩"
+      }
     ]
   },
   {
@@ -712,14 +1855,46 @@
     "category": "history",
     "format": "year",
     "items": [
-      { "name": "Ford", "value": 1903, "emoji": "🚗" },
-      { "name": "IBM", "value": 1911, "emoji": "💻" },
-      { "name": "Sony", "value": 1946, "emoji": "📻" },
-      { "name": "Nike", "value": 1964, "emoji": "👟" },
-      { "name": "Microsoft", "value": 1975, "emoji": "🪟" },
-      { "name": "Apple", "value": 1976, "emoji": "🍏" },
-      { "name": "Amazon", "value": 1994, "emoji": "📦" },
-      { "name": "Google", "value": 1998, "emoji": "🔍" }
+      {
+        "name": "Ford",
+        "value": 1903,
+        "emoji": "🚗"
+      },
+      {
+        "name": "IBM",
+        "value": 1911,
+        "emoji": "💻"
+      },
+      {
+        "name": "Sony",
+        "value": 1946,
+        "emoji": "📻"
+      },
+      {
+        "name": "Nike",
+        "value": 1964,
+        "emoji": "👟"
+      },
+      {
+        "name": "Microsoft",
+        "value": 1975,
+        "emoji": "🪟"
+      },
+      {
+        "name": "Apple",
+        "value": 1976,
+        "emoji": "🍏"
+      },
+      {
+        "name": "Amazon",
+        "value": 1994,
+        "emoji": "📦"
+      },
+      {
+        "name": "Google",
+        "value": 1998,
+        "emoji": "🔍"
+      }
     ]
   },
   {
@@ -732,14 +1907,46 @@
     "category": "history",
     "format": "year",
     "items": [
-      { "name": "Great Pyramid", "value": -2560, "emoji": "🔺" },
-      { "name": "Colosseum", "value": 80, "emoji": "🇮🇹" },
-      { "name": "Leaning Tower of Pisa", "value": 1372, "emoji": "🗼" },
-      { "name": "Taj Mahal", "value": 1653, "emoji": "🕌" },
-      { "name": "Eiffel Tower", "value": 1889, "emoji": "🗼" },
-      { "name": "Empire State", "value": 1931, "emoji": "🏙️" },
-      { "name": "Sydney Opera House", "value": 1973, "emoji": "🏛️" },
-      { "name": "Burj Khalifa", "value": 2010, "emoji": "🏙️" }
+      {
+        "name": "Great Pyramid",
+        "value": -2560,
+        "emoji": "🔺"
+      },
+      {
+        "name": "Colosseum",
+        "value": 80,
+        "emoji": "🇮🇹"
+      },
+      {
+        "name": "Leaning Tower of Pisa",
+        "value": 1372,
+        "emoji": "🗼"
+      },
+      {
+        "name": "Taj Mahal",
+        "value": 1653,
+        "emoji": "🕌"
+      },
+      {
+        "name": "Eiffel Tower",
+        "value": 1889,
+        "emoji": "🗼"
+      },
+      {
+        "name": "Empire State",
+        "value": 1931,
+        "emoji": "🏙️"
+      },
+      {
+        "name": "Sydney Opera House",
+        "value": 1973,
+        "emoji": "🏛️"
+      },
+      {
+        "name": "Burj Khalifa",
+        "value": 2010,
+        "emoji": "🏙️"
+      }
     ]
   },
   {
@@ -752,14 +1959,46 @@
     "category": "history",
     "format": "year",
     "items": [
-      { "name": "Fall of Rome", "value": 476, "emoji": "🏰" },
-      { "name": "Magna Carta signed", "value": 1215, "emoji": "📜" },
-      { "name": "Columbus reaches Americas", "value": 1492, "emoji": "⛵" },
-      { "name": "US Declaration of Independence", "value": 1776, "emoji": "🇺🇸" },
-      { "name": "French Revolution begins", "value": 1789, "emoji": "🇫🇷" },
-      { "name": "World War I begins", "value": 1914, "emoji": "🕊️" },
-      { "name": "First Moon landing", "value": 1969, "emoji": "🌕" },
-      { "name": "Berlin Wall falls", "value": 1989, "emoji": "🧱" }
+      {
+        "name": "Fall of Rome",
+        "value": 476,
+        "emoji": "🏰"
+      },
+      {
+        "name": "Magna Carta signed",
+        "value": 1215,
+        "emoji": "📜"
+      },
+      {
+        "name": "Columbus reaches Americas",
+        "value": 1492,
+        "emoji": "⛵"
+      },
+      {
+        "name": "US Declaration of Independence",
+        "value": 1776,
+        "emoji": "🇺🇸"
+      },
+      {
+        "name": "French Revolution begins",
+        "value": 1789,
+        "emoji": "🇫🇷"
+      },
+      {
+        "name": "World War I begins",
+        "value": 1914,
+        "emoji": "🕊️"
+      },
+      {
+        "name": "First Moon landing",
+        "value": 1969,
+        "emoji": "🌕"
+      },
+      {
+        "name": "Berlin Wall falls",
+        "value": 1989,
+        "emoji": "🧱"
+      }
     ]
   },
   {
@@ -772,14 +2011,46 @@
     "category": "history",
     "format": "year",
     "items": [
-      { "name": "Blood circulation", "value": 1628, "emoji": "❤️" },
-      { "name": "Gravity (Newton)", "value": 1687, "emoji": "🍎" },
-      { "name": "Oxygen", "value": 1774, "emoji": "💨" },
-      { "name": "The electron", "value": 1897, "emoji": "⚛️" },
-      { "name": "Penicillin", "value": 1928, "emoji": "💊" },
-      { "name": "DNA's double helix", "value": 1953, "emoji": "🧬" },
-      { "name": "First exoplanet", "value": 1995, "emoji": "🪐" },
-      { "name": "Higgs boson", "value": 2012, "emoji": "⚛️" }
+      {
+        "name": "Blood circulation",
+        "value": 1628,
+        "emoji": "❤️"
+      },
+      {
+        "name": "Gravity (Newton)",
+        "value": 1687,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Oxygen",
+        "value": 1774,
+        "emoji": "💨"
+      },
+      {
+        "name": "The electron",
+        "value": 1897,
+        "emoji": "⚛️"
+      },
+      {
+        "name": "Penicillin",
+        "value": 1928,
+        "emoji": "💊"
+      },
+      {
+        "name": "DNA's double helix",
+        "value": 1953,
+        "emoji": "🧬"
+      },
+      {
+        "name": "First exoplanet",
+        "value": 1995,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Higgs boson",
+        "value": 2012,
+        "emoji": "⚛️"
+      }
     ]
   },
   {
@@ -792,14 +2063,46 @@
     "category": "tech",
     "format": "year",
     "items": [
-      { "name": "The Wizard of Oz", "value": 1939, "emoji": "🌪️" },
-      { "name": "Psycho", "value": 1960, "emoji": "🔪" },
-      { "name": "Jaws", "value": 1975, "emoji": "🦈" },
-      { "name": "E.T.", "value": 1982, "emoji": "🛸" },
-      { "name": "Jurassic Park", "value": 1993, "emoji": "🦖" },
-      { "name": "Titanic", "value": 1997, "emoji": "🚢" },
-      { "name": "Avatar", "value": 2009, "emoji": "💙" },
-      { "name": "Parasite", "value": 2019, "emoji": "🏆" }
+      {
+        "name": "The Wizard of Oz",
+        "value": 1939,
+        "emoji": "🌪️"
+      },
+      {
+        "name": "Psycho",
+        "value": 1960,
+        "emoji": "🔪"
+      },
+      {
+        "name": "Jaws",
+        "value": 1975,
+        "emoji": "🦈"
+      },
+      {
+        "name": "E.T.",
+        "value": 1982,
+        "emoji": "🛸"
+      },
+      {
+        "name": "Jurassic Park",
+        "value": 1993,
+        "emoji": "🦖"
+      },
+      {
+        "name": "Titanic",
+        "value": 1997,
+        "emoji": "🚢"
+      },
+      {
+        "name": "Avatar",
+        "value": 2009,
+        "emoji": "💙"
+      },
+      {
+        "name": "Parasite",
+        "value": 2019,
+        "emoji": "🏆"
+      }
     ]
   },
   {
@@ -812,14 +2115,46 @@
     "category": "tech",
     "format": "year",
     "items": [
-      { "name": "Pong", "value": 1972, "emoji": "🏓" },
-      { "name": "Pac-Man", "value": 1980, "emoji": "👾" },
-      { "name": "Tetris", "value": 1984, "emoji": "🟥" },
-      { "name": "Super Mario Bros.", "value": 1985, "emoji": "🍄" },
-      { "name": "Doom", "value": 1993, "emoji": "👹" },
-      { "name": "Half-Life", "value": 1998, "emoji": "🥽" },
-      { "name": "Minecraft", "value": 2011, "emoji": "⛏️" },
-      { "name": "Fortnite", "value": 2017, "emoji": "🏆" }
+      {
+        "name": "Pong",
+        "value": 1972,
+        "emoji": "🏓"
+      },
+      {
+        "name": "Pac-Man",
+        "value": 1980,
+        "emoji": "👾"
+      },
+      {
+        "name": "Tetris",
+        "value": 1984,
+        "emoji": "🟥"
+      },
+      {
+        "name": "Super Mario Bros.",
+        "value": 1985,
+        "emoji": "🍄"
+      },
+      {
+        "name": "Doom",
+        "value": 1993,
+        "emoji": "👹"
+      },
+      {
+        "name": "Half-Life",
+        "value": 1998,
+        "emoji": "🥽"
+      },
+      {
+        "name": "Minecraft",
+        "value": 2011,
+        "emoji": "⛏️"
+      },
+      {
+        "name": "Fortnite",
+        "value": 2017,
+        "emoji": "🏆"
+      }
     ]
   },
   {
@@ -832,14 +2167,47 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Helium", "value": -269, "emoji": "🎈" },
-      { "name": "Nitrogen", "value": -196, "emoji": "💨" },
-      { "name": "Oxygen", "value": -183, "emoji": "🫧" },
-      { "name": "Water", "value": 100, "emoji": "💧" },
-      { "name": "Mercury", "value": 357, "emoji": "🌡️" },
-      { "name": "Lead", "value": 1749, "emoji": "🪨" },
-      { "name": "Iron", "value": 2862, "emoji": "⚙️" },
-      { "name": "Tungsten", "value": 5555, "emoji": "💡", "note": "The highest boiling point of any element — hence light-bulb filaments." }
+      {
+        "name": "Helium",
+        "value": -269,
+        "emoji": "🎈"
+      },
+      {
+        "name": "Nitrogen",
+        "value": -196,
+        "emoji": "💨"
+      },
+      {
+        "name": "Oxygen",
+        "value": -183,
+        "emoji": "🫧"
+      },
+      {
+        "name": "Water",
+        "value": 100,
+        "emoji": "💧"
+      },
+      {
+        "name": "Mercury",
+        "value": 357,
+        "emoji": "🌡️"
+      },
+      {
+        "name": "Lead",
+        "value": 1749,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Iron",
+        "value": 2862,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Tungsten",
+        "value": 5555,
+        "emoji": "💡",
+        "note": "The highest boiling point of any element — hence light-bulb filaments."
+      }
     ]
   },
   {
@@ -852,14 +2220,47 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Mercury", "value": -39, "emoji": "🌡️" },
-      { "name": "Ice", "value": 0, "emoji": "🧊" },
-      { "name": "Gallium", "value": 30, "emoji": "🫠", "note": "Melts in your hand — just below body temperature." },
-      { "name": "Butter", "value": 32, "emoji": "🧈" },
-      { "name": "Chocolate", "value": 34, "emoji": "🍫" },
-      { "name": "Tin", "value": 232, "emoji": "🥫" },
-      { "name": "Lead", "value": 327, "emoji": "🪨" },
-      { "name": "Aluminium", "value": 660, "emoji": "⚙️" }
+      {
+        "name": "Mercury",
+        "value": -39,
+        "emoji": "🌡️"
+      },
+      {
+        "name": "Ice",
+        "value": 0,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Gallium",
+        "value": 30,
+        "emoji": "🫠",
+        "note": "Melts in your hand — just below body temperature."
+      },
+      {
+        "name": "Butter",
+        "value": 32,
+        "emoji": "🧈"
+      },
+      {
+        "name": "Chocolate",
+        "value": 34,
+        "emoji": "🍫"
+      },
+      {
+        "name": "Tin",
+        "value": 232,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Lead",
+        "value": 327,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Aluminium",
+        "value": 660,
+        "emoji": "⚙️"
+      }
     ]
   },
   {
@@ -873,14 +2274,47 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Cork", "value": 0.24, "emoji": "🍾" },
-      { "name": "Water", "value": 1, "emoji": "💧" },
-      { "name": "Aluminium", "value": 2.7, "emoji": "⚙️" },
-      { "name": "Iron", "value": 7.9, "emoji": "🧲" },
-      { "name": "Lead", "value": 11.3, "emoji": "🪨" },
-      { "name": "Mercury", "value": 13.5, "emoji": "🌡️" },
-      { "name": "Gold", "value": 19.3, "emoji": "🥇" },
-      { "name": "Osmium", "value": 22.6, "emoji": "🔩", "note": "The densest naturally occurring element." }
+      {
+        "name": "Cork",
+        "value": 0.24,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Water",
+        "value": 1,
+        "emoji": "💧"
+      },
+      {
+        "name": "Aluminium",
+        "value": 2.7,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Iron",
+        "value": 7.9,
+        "emoji": "🧲"
+      },
+      {
+        "name": "Lead",
+        "value": 11.3,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Mercury",
+        "value": 13.5,
+        "emoji": "🌡️"
+      },
+      {
+        "name": "Gold",
+        "value": 19.3,
+        "emoji": "🥇"
+      },
+      {
+        "name": "Osmium",
+        "value": 22.6,
+        "emoji": "🔩",
+        "note": "The densest naturally occurring element."
+      }
     ]
   },
   {
@@ -893,14 +2327,46 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Walking", "value": 5, "emoji": "🚶" },
-      { "name": "Sprinter", "value": 45, "emoji": "🏃" },
-      { "name": "Cheetah", "value": 112, "emoji": "🐆" },
-      { "name": "Highway car", "value": 120, "emoji": "🚗" },
-      { "name": "Bullet train", "value": 320, "emoji": "🚅" },
-      { "name": "Airliner", "value": 900, "emoji": "✈️" },
-      { "name": "Speed of sound", "value": 1235, "emoji": "💥" },
-      { "name": "Fighter jet", "value": 2400, "emoji": "🚀" }
+      {
+        "name": "Walking",
+        "value": 5,
+        "emoji": "🚶"
+      },
+      {
+        "name": "Sprinter",
+        "value": 45,
+        "emoji": "🏃"
+      },
+      {
+        "name": "Cheetah",
+        "value": 112,
+        "emoji": "🐆"
+      },
+      {
+        "name": "Highway car",
+        "value": 120,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Bullet train",
+        "value": 320,
+        "emoji": "🚅"
+      },
+      {
+        "name": "Airliner",
+        "value": 900,
+        "emoji": "✈️"
+      },
+      {
+        "name": "Speed of sound",
+        "value": 1235,
+        "emoji": "💥"
+      },
+      {
+        "name": "Fighter jet",
+        "value": 2400,
+        "emoji": "🚀"
+      }
     ]
   },
   {
@@ -913,14 +2379,46 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Liquid nitrogen", "value": -196, "emoji": "❄️" },
-      { "name": "Home freezer", "value": -18, "emoji": "🧊" },
-      { "name": "Fridge", "value": 4, "emoji": "🥛" },
-      { "name": "Room temperature", "value": 21, "emoji": "🏠" },
-      { "name": "Body temperature", "value": 37, "emoji": "🧍" },
-      { "name": "Hot coffee", "value": 70, "emoji": "☕" },
-      { "name": "Boiling water", "value": 100, "emoji": "💧" },
-      { "name": "Baking oven", "value": 200, "emoji": "🔥" }
+      {
+        "name": "Liquid nitrogen",
+        "value": -196,
+        "emoji": "❄️"
+      },
+      {
+        "name": "Home freezer",
+        "value": -18,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Fridge",
+        "value": 4,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Room temperature",
+        "value": 21,
+        "emoji": "🏠"
+      },
+      {
+        "name": "Body temperature",
+        "value": 37,
+        "emoji": "🧍"
+      },
+      {
+        "name": "Hot coffee",
+        "value": 70,
+        "emoji": "☕"
+      },
+      {
+        "name": "Boiling water",
+        "value": 100,
+        "emoji": "💧"
+      },
+      {
+        "name": "Baking oven",
+        "value": 200,
+        "emoji": "🔥"
+      }
     ]
   },
   {
@@ -933,14 +2431,46 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Whisper", "value": 30, "emoji": "🤫" },
-      { "name": "Conversation", "value": 60, "emoji": "🗣️" },
-      { "name": "Vacuum cleaner", "value": 70, "emoji": "🧹" },
-      { "name": "City traffic", "value": 85, "emoji": "🚗" },
-      { "name": "Lawnmower", "value": 90, "emoji": "🔧" },
-      { "name": "Rock concert", "value": 110, "emoji": "🎸" },
-      { "name": "Thunderclap", "value": 120, "emoji": "⛈️" },
-      { "name": "Jet engine", "value": 140, "emoji": "✈️" }
+      {
+        "name": "Whisper",
+        "value": 30,
+        "emoji": "🤫"
+      },
+      {
+        "name": "Conversation",
+        "value": 60,
+        "emoji": "🗣️"
+      },
+      {
+        "name": "Vacuum cleaner",
+        "value": 70,
+        "emoji": "🧹"
+      },
+      {
+        "name": "City traffic",
+        "value": 85,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Lawnmower",
+        "value": 90,
+        "emoji": "🔧"
+      },
+      {
+        "name": "Rock concert",
+        "value": 110,
+        "emoji": "🎸"
+      },
+      {
+        "name": "Thunderclap",
+        "value": 120,
+        "emoji": "⛈️"
+      },
+      {
+        "name": "Jet engine",
+        "value": 140,
+        "emoji": "✈️"
+      }
     ]
   },
   {
@@ -953,14 +2483,46 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Battery acid", "value": 1, "emoji": "🔋" },
-      { "name": "Lemon juice", "value": 2, "emoji": "🍋" },
-      { "name": "Vinegar", "value": 3, "emoji": "🫧" },
-      { "name": "Black coffee", "value": 5, "emoji": "☕" },
-      { "name": "Pure water", "value": 7, "emoji": "💧" },
-      { "name": "Baking soda", "value": 9, "emoji": "🧂" },
-      { "name": "Bleach", "value": 13, "emoji": "🧼" },
-      { "name": "Drain cleaner", "value": 14, "emoji": "☠️" }
+      {
+        "name": "Battery acid",
+        "value": 1,
+        "emoji": "🔋"
+      },
+      {
+        "name": "Lemon juice",
+        "value": 2,
+        "emoji": "🍋"
+      },
+      {
+        "name": "Vinegar",
+        "value": 3,
+        "emoji": "🫧"
+      },
+      {
+        "name": "Black coffee",
+        "value": 5,
+        "emoji": "☕"
+      },
+      {
+        "name": "Pure water",
+        "value": 7,
+        "emoji": "💧"
+      },
+      {
+        "name": "Baking soda",
+        "value": 9,
+        "emoji": "🧂"
+      },
+      {
+        "name": "Bleach",
+        "value": 13,
+        "emoji": "🧼"
+      },
+      {
+        "name": "Drain cleaner",
+        "value": 14,
+        "emoji": "☠️"
+      }
     ]
   },
   {
@@ -973,14 +2535,46 @@
     "category": "sports",
     "format": "integer",
     "items": [
-      { "name": "Table tennis", "value": 40, "emoji": "🏓" },
-      { "name": "Golf", "value": 43, "emoji": "⛳" },
-      { "name": "Billiard", "value": 57, "emoji": "🎱" },
-      { "name": "Tennis", "value": 67, "emoji": "🎾" },
-      { "name": "Baseball", "value": 74, "emoji": "⚾" },
-      { "name": "Volleyball", "value": 210, "emoji": "🏐" },
-      { "name": "Soccer", "value": 220, "emoji": "⚽" },
-      { "name": "Basketball", "value": 240, "emoji": "🏀" }
+      {
+        "name": "Table tennis",
+        "value": 40,
+        "emoji": "🏓"
+      },
+      {
+        "name": "Golf",
+        "value": 43,
+        "emoji": "⛳"
+      },
+      {
+        "name": "Billiard",
+        "value": 57,
+        "emoji": "🎱"
+      },
+      {
+        "name": "Tennis",
+        "value": 67,
+        "emoji": "🎾"
+      },
+      {
+        "name": "Baseball",
+        "value": 74,
+        "emoji": "⚾"
+      },
+      {
+        "name": "Volleyball",
+        "value": 210,
+        "emoji": "🏐"
+      },
+      {
+        "name": "Soccer",
+        "value": 220,
+        "emoji": "⚽"
+      },
+      {
+        "name": "Basketball",
+        "value": 240,
+        "emoji": "🏀"
+      }
     ]
   },
   {
@@ -994,14 +2588,46 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Guitar", "value": 1, "emoji": "🎸" },
-      { "name": "Human", "value": 1.7, "emoji": "🧍" },
-      { "name": "Car", "value": 4.5, "emoji": "🚗" },
-      { "name": "Giraffe", "value": 5.5, "emoji": "🦒" },
-      { "name": "Bus", "value": 12, "emoji": "🚌" },
-      { "name": "Blue whale", "value": 30, "emoji": "🐋" },
-      { "name": "Boeing 747", "value": 71, "emoji": "✈️" },
-      { "name": "Football field", "value": 109, "emoji": "🏈" }
+      {
+        "name": "Guitar",
+        "value": 1,
+        "emoji": "🎸"
+      },
+      {
+        "name": "Human",
+        "value": 1.7,
+        "emoji": "🧍"
+      },
+      {
+        "name": "Car",
+        "value": 4.5,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Giraffe",
+        "value": 5.5,
+        "emoji": "🦒"
+      },
+      {
+        "name": "Bus",
+        "value": 12,
+        "emoji": "🚌"
+      },
+      {
+        "name": "Blue whale",
+        "value": 30,
+        "emoji": "🐋"
+      },
+      {
+        "name": "Boeing 747",
+        "value": 71,
+        "emoji": "✈️"
+      },
+      {
+        "name": "Football field",
+        "value": 109,
+        "emoji": "🏈"
+      }
     ]
   },
   {
@@ -1014,14 +2640,47 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Almonds", "value": 4, "emoji": "🌰" },
-      { "name": "White bread", "value": 36, "emoji": "🍞" },
-      { "name": "Banana", "value": 75, "emoji": "🍌" },
-      { "name": "Apple", "value": 84, "emoji": "🍎" },
-      { "name": "Milk", "value": 87, "emoji": "🥛" },
-      { "name": "Broccoli", "value": 89, "emoji": "🥦" },
-      { "name": "Watermelon", "value": 92, "emoji": "🍉" },
-      { "name": "Cucumber", "value": 96, "emoji": "🥒", "note": "Almost entirely water — hence barely any calories." }
+      {
+        "name": "Almonds",
+        "value": 4,
+        "emoji": "🌰"
+      },
+      {
+        "name": "White bread",
+        "value": 36,
+        "emoji": "🍞"
+      },
+      {
+        "name": "Banana",
+        "value": 75,
+        "emoji": "🍌"
+      },
+      {
+        "name": "Apple",
+        "value": 84,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Milk",
+        "value": 87,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Broccoli",
+        "value": 89,
+        "emoji": "🥦"
+      },
+      {
+        "name": "Watermelon",
+        "value": 92,
+        "emoji": "🍉"
+      },
+      {
+        "name": "Cucumber",
+        "value": 96,
+        "emoji": "🥒",
+        "note": "Almost entirely water — hence barely any calories."
+      }
     ]
   },
   {
@@ -1034,14 +2693,47 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Apple", "value": 5, "emoji": "🍎" },
-      { "name": "Banana", "value": 9, "emoji": "🍌" },
-      { "name": "Pineapple", "value": 48, "emoji": "🍍" },
-      { "name": "Orange", "value": 53, "emoji": "🍊" },
-      { "name": "Strawberry", "value": 59, "emoji": "🍓" },
-      { "name": "Kiwi", "value": 93, "emoji": "🥝" },
-      { "name": "Red bell pepper", "value": 128, "emoji": "🫑" },
-      { "name": "Guava", "value": 228, "emoji": "🍈", "note": "Packs several times the vitamin C of an orange." }
+      {
+        "name": "Apple",
+        "value": 5,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Banana",
+        "value": 9,
+        "emoji": "🍌"
+      },
+      {
+        "name": "Pineapple",
+        "value": 48,
+        "emoji": "🍍"
+      },
+      {
+        "name": "Orange",
+        "value": 53,
+        "emoji": "🍊"
+      },
+      {
+        "name": "Strawberry",
+        "value": 59,
+        "emoji": "🍓"
+      },
+      {
+        "name": "Kiwi",
+        "value": 93,
+        "emoji": "🥝"
+      },
+      {
+        "name": "Red bell pepper",
+        "value": 128,
+        "emoji": "🫑"
+      },
+      {
+        "name": "Guava",
+        "value": 228,
+        "emoji": "🍈",
+        "note": "Packs several times the vitamin C of an orange."
+      }
     ]
   },
   {
@@ -1054,14 +2746,47 @@
     "category": "nature",
     "format": "integer",
     "items": [
-      { "name": "Apple tree", "value": 10, "emoji": "🍎" },
-      { "name": "Birch", "value": 25, "emoji": "🌳" },
-      { "name": "Oak", "value": 30, "emoji": "🌳" },
-      { "name": "Pine", "value": 45, "emoji": "🌲" },
-      { "name": "Douglas fir", "value": 75, "emoji": "🌲" },
-      { "name": "Giant sequoia", "value": 85, "emoji": "🌳" },
-      { "name": "Mountain ash", "value": 97, "emoji": "🌳" },
-      { "name": "Coast redwood", "value": 115, "emoji": "🌲", "note": "The tallest living things on Earth." }
+      {
+        "name": "Apple tree",
+        "value": 10,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Birch",
+        "value": 25,
+        "emoji": "🌳"
+      },
+      {
+        "name": "Oak",
+        "value": 30,
+        "emoji": "🌳"
+      },
+      {
+        "name": "Pine",
+        "value": 45,
+        "emoji": "🌲"
+      },
+      {
+        "name": "Douglas fir",
+        "value": 75,
+        "emoji": "🌲"
+      },
+      {
+        "name": "Giant sequoia",
+        "value": 85,
+        "emoji": "🌳"
+      },
+      {
+        "name": "Mountain ash",
+        "value": 97,
+        "emoji": "🌳"
+      },
+      {
+        "name": "Coast redwood",
+        "value": 115,
+        "emoji": "🌲",
+        "note": "The tallest living things on Earth."
+      }
     ]
   },
   {
@@ -1075,14 +2800,47 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Clownfish", "value": 0.1, "emoji": "🐠" },
-      { "name": "Seahorse", "value": 0.2, "emoji": "🦄" },
-      { "name": "Octopus", "value": 1, "emoji": "🐙" },
-      { "name": "Dolphin", "value": 3, "emoji": "🐬" },
-      { "name": "Great white shark", "value": 5, "emoji": "🦈" },
-      { "name": "Orca", "value": 8, "emoji": "🐳" },
-      { "name": "Whale shark", "value": 12, "emoji": "🦈" },
-      { "name": "Blue whale", "value": 30, "emoji": "🐋", "note": "The largest animal known to have ever lived." }
+      {
+        "name": "Clownfish",
+        "value": 0.1,
+        "emoji": "🐠"
+      },
+      {
+        "name": "Seahorse",
+        "value": 0.2,
+        "emoji": "🦄"
+      },
+      {
+        "name": "Octopus",
+        "value": 1,
+        "emoji": "🐙"
+      },
+      {
+        "name": "Dolphin",
+        "value": 3,
+        "emoji": "🐬"
+      },
+      {
+        "name": "Great white shark",
+        "value": 5,
+        "emoji": "🦈"
+      },
+      {
+        "name": "Orca",
+        "value": 8,
+        "emoji": "🐳"
+      },
+      {
+        "name": "Whale shark",
+        "value": 12,
+        "emoji": "🦈"
+      },
+      {
+        "name": "Blue whale",
+        "value": 30,
+        "emoji": "🐋",
+        "note": "The largest animal known to have ever lived."
+      }
     ]
   },
   {
@@ -1095,14 +2853,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Compsognathus", "value": 1, "emoji": "🦕" },
-      { "name": "Velociraptor", "value": 2, "emoji": "🦕" },
-      { "name": "Stegosaurus", "value": 7, "emoji": "🦕" },
-      { "name": "Tyrannosaurus", "value": 12, "emoji": "🦖" },
-      { "name": "Spinosaurus", "value": 15, "emoji": "🦕" },
-      { "name": "Brachiosaurus", "value": 22, "emoji": "🦕" },
-      { "name": "Diplodocus", "value": 26, "emoji": "🦕" },
-      { "name": "Argentinosaurus", "value": 35, "emoji": "🦕", "note": "Among the largest land animals ever to exist." }
+      {
+        "name": "Compsognathus",
+        "value": 1,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Velociraptor",
+        "value": 2,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Stegosaurus",
+        "value": 7,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Tyrannosaurus",
+        "value": 12,
+        "emoji": "🦖"
+      },
+      {
+        "name": "Spinosaurus",
+        "value": 15,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Brachiosaurus",
+        "value": 22,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Diplodocus",
+        "value": 26,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Argentinosaurus",
+        "value": 35,
+        "emoji": "🦕",
+        "note": "Among the largest land animals ever to exist."
+      }
     ]
   },
   {
@@ -1115,14 +2906,46 @@
     "category": "nature",
     "format": "integer",
     "items": [
-      { "name": "Gentle breeze", "value": 15, "emoji": "🍃" },
-      { "name": "Moderate wind", "value": 30, "emoji": "🌬️" },
-      { "name": "Strong wind", "value": 50, "emoji": "🌬️" },
-      { "name": "Gale", "value": 75, "emoji": "💨" },
-      { "name": "Storm", "value": 100, "emoji": "⛈️" },
-      { "name": "Category 1 hurricane", "value": 120, "emoji": "🌀" },
-      { "name": "Category 3 hurricane", "value": 180, "emoji": "🌀" },
-      { "name": "Category 5 hurricane", "value": 280, "emoji": "🌀" }
+      {
+        "name": "Gentle breeze",
+        "value": 15,
+        "emoji": "🍃"
+      },
+      {
+        "name": "Moderate wind",
+        "value": 30,
+        "emoji": "🌬️"
+      },
+      {
+        "name": "Strong wind",
+        "value": 50,
+        "emoji": "🌬️"
+      },
+      {
+        "name": "Gale",
+        "value": 75,
+        "emoji": "💨"
+      },
+      {
+        "name": "Storm",
+        "value": 100,
+        "emoji": "⛈️"
+      },
+      {
+        "name": "Category 1 hurricane",
+        "value": 120,
+        "emoji": "🌀"
+      },
+      {
+        "name": "Category 3 hurricane",
+        "value": 180,
+        "emoji": "🌀"
+      },
+      {
+        "name": "Category 5 hurricane",
+        "value": 280,
+        "emoji": "🌀"
+      }
     ]
   },
   {
@@ -1136,14 +2959,46 @@
     "format": "number",
     "decimals": 1,
     "items": [
-      { "name": "Paper", "value": 0.2, "emoji": "📄" },
-      { "name": "Orange peel", "value": 0.5, "emoji": "🍊" },
-      { "name": "Cigarette butt", "value": 10, "emoji": "🚬" },
-      { "name": "Plastic bag", "value": 20, "emoji": "🛍️" },
-      { "name": "Foam cup", "value": 50, "emoji": "🥤" },
-      { "name": "Aluminium can", "value": 200, "emoji": "🥤" },
-      { "name": "Plastic bottle", "value": 450, "emoji": "🍶" },
-      { "name": "Fishing line", "value": 600, "emoji": "🎣" }
+      {
+        "name": "Paper",
+        "value": 0.2,
+        "emoji": "📄"
+      },
+      {
+        "name": "Orange peel",
+        "value": 0.5,
+        "emoji": "🍊"
+      },
+      {
+        "name": "Cigarette butt",
+        "value": 10,
+        "emoji": "🚬"
+      },
+      {
+        "name": "Plastic bag",
+        "value": 20,
+        "emoji": "🛍️"
+      },
+      {
+        "name": "Foam cup",
+        "value": 50,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Aluminium can",
+        "value": 200,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Plastic bottle",
+        "value": 450,
+        "emoji": "🍶"
+      },
+      {
+        "name": "Fishing line",
+        "value": 600,
+        "emoji": "🎣"
+      }
     ]
   },
   {
@@ -1156,14 +3011,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "Human swimmer", "value": 8, "emoji": "🏊" },
-      { "name": "Manatee", "value": 25, "emoji": "🦭" },
-      { "name": "Sea turtle", "value": 35, "emoji": "🐢" },
-      { "name": "Orca", "value": 45, "emoji": "🐳" },
-      { "name": "Dolphin", "value": 55, "emoji": "🐬" },
-      { "name": "Flying fish", "value": 56, "emoji": "🐟" },
-      { "name": "Marlin", "value": 80, "emoji": "🎣" },
-      { "name": "Sailfish", "value": 110, "emoji": "🐟", "note": "Widely cited as the fastest fish in the sea." }
+      {
+        "name": "Human swimmer",
+        "value": 8,
+        "emoji": "🏊"
+      },
+      {
+        "name": "Manatee",
+        "value": 25,
+        "emoji": "🦭"
+      },
+      {
+        "name": "Sea turtle",
+        "value": 35,
+        "emoji": "🐢"
+      },
+      {
+        "name": "Orca",
+        "value": 45,
+        "emoji": "🐳"
+      },
+      {
+        "name": "Dolphin",
+        "value": 55,
+        "emoji": "🐬"
+      },
+      {
+        "name": "Flying fish",
+        "value": 56,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Marlin",
+        "value": 80,
+        "emoji": "🎣"
+      },
+      {
+        "name": "Sailfish",
+        "value": 110,
+        "emoji": "🐟",
+        "note": "Widely cited as the fastest fish in the sea."
+      }
     ]
   },
   {
@@ -1176,14 +3064,46 @@
     "category": "sports",
     "format": "integer",
     "items": [
-      { "name": "100m dash", "value": 100, "emoji": "🏃" },
-      { "name": "400m", "value": 400, "emoji": "🏃" },
-      { "name": "Mile", "value": 1609, "emoji": "🏃" },
-      { "name": "5K", "value": 5000, "emoji": "🏃" },
-      { "name": "10K", "value": 10000, "emoji": "🏃" },
-      { "name": "Half marathon", "value": 21097, "emoji": "🏅" },
-      { "name": "Marathon", "value": 42195, "emoji": "🏅" },
-      { "name": "100K ultra", "value": 100000, "emoji": "🏆" }
+      {
+        "name": "100m dash",
+        "value": 100,
+        "emoji": "🏃"
+      },
+      {
+        "name": "400m",
+        "value": 400,
+        "emoji": "🏃"
+      },
+      {
+        "name": "Mile",
+        "value": 1609,
+        "emoji": "🏃"
+      },
+      {
+        "name": "5K",
+        "value": 5000,
+        "emoji": "🏃"
+      },
+      {
+        "name": "10K",
+        "value": 10000,
+        "emoji": "🏃"
+      },
+      {
+        "name": "Half marathon",
+        "value": 21097,
+        "emoji": "🏅"
+      },
+      {
+        "name": "Marathon",
+        "value": 42195,
+        "emoji": "🏅"
+      },
+      {
+        "name": "100K ultra",
+        "value": 100000,
+        "emoji": "🏆"
+      }
     ]
   },
   {
@@ -1196,14 +3116,46 @@
     "category": "tech",
     "format": "integer",
     "items": [
-      { "name": "VGA", "value": 640, "emoji": "🖥️" },
-      { "name": "HD (720p)", "value": 1280, "emoji": "📺" },
-      { "name": "Full HD (1080p)", "value": 1920, "emoji": "📺" },
-      { "name": "2K", "value": 2048, "emoji": "🖥️" },
-      { "name": "QHD (1440p)", "value": 2560, "emoji": "🖥️" },
-      { "name": "4K UHD", "value": 3840, "emoji": "📺" },
-      { "name": "5K", "value": 5120, "emoji": "🖥️" },
-      { "name": "8K UHD", "value": 7680, "emoji": "📺" }
+      {
+        "name": "VGA",
+        "value": 640,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "HD (720p)",
+        "value": 1280,
+        "emoji": "📺"
+      },
+      {
+        "name": "Full HD (1080p)",
+        "value": 1920,
+        "emoji": "📺"
+      },
+      {
+        "name": "2K",
+        "value": 2048,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "QHD (1440p)",
+        "value": 2560,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "4K UHD",
+        "value": 3840,
+        "emoji": "📺"
+      },
+      {
+        "name": "5K",
+        "value": 5120,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "8K UHD",
+        "value": 7680,
+        "emoji": "📺"
+      }
     ]
   },
   {
@@ -1216,14 +3168,47 @@
     "category": "food",
     "format": "integer",
     "items": [
-      { "name": "Lactose", "value": 16, "emoji": "🥛" },
-      { "name": "Glucose", "value": 75, "emoji": "🍬" },
-      { "name": "Table sugar", "value": 100, "emoji": "🧂" },
-      { "name": "Fructose", "value": 170, "emoji": "🍯" },
-      { "name": "Aspartame", "value": 200, "emoji": "🧪" },
-      { "name": "Saccharin", "value": 400, "emoji": "🧪" },
-      { "name": "Sucralose", "value": 600, "emoji": "🧪" },
-      { "name": "Thaumatin", "value": 2000, "emoji": "🌿", "note": "A protein from a West African fruit — thousands of times sweeter than sugar." }
+      {
+        "name": "Lactose",
+        "value": 16,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Glucose",
+        "value": 75,
+        "emoji": "🍬"
+      },
+      {
+        "name": "Table sugar",
+        "value": 100,
+        "emoji": "🧂"
+      },
+      {
+        "name": "Fructose",
+        "value": 170,
+        "emoji": "🍯"
+      },
+      {
+        "name": "Aspartame",
+        "value": 200,
+        "emoji": "🧪"
+      },
+      {
+        "name": "Saccharin",
+        "value": 400,
+        "emoji": "🧪"
+      },
+      {
+        "name": "Sucralose",
+        "value": 600,
+        "emoji": "🧪"
+      },
+      {
+        "name": "Thaumatin",
+        "value": 2000,
+        "emoji": "🌿",
+        "note": "A protein from a West African fruit — thousands of times sweeter than sugar."
+      }
     ]
   },
   {
@@ -1236,14 +3221,47 @@
     "category": "animals",
     "format": "integer",
     "items": [
-      { "name": "House sparrow", "value": 45, "emoji": "🐦" },
-      { "name": "Seagull", "value": 50, "emoji": "🐦" },
-      { "name": "Pigeon", "value": 80, "emoji": "🕊️" },
-      { "name": "Mallard duck", "value": 90, "emoji": "🦆" },
-      { "name": "Swift", "value": 110, "emoji": "🐦" },
-      { "name": "Needletail", "value": 170, "emoji": "🐦" },
-      { "name": "Golden eagle", "value": 240, "emoji": "🦅" },
-      { "name": "Peregrine falcon", "value": 390, "emoji": "🦅", "note": "In a hunting dive, the fastest animal on the planet." }
+      {
+        "name": "House sparrow",
+        "value": 45,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Seagull",
+        "value": 50,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Pigeon",
+        "value": 80,
+        "emoji": "🕊️"
+      },
+      {
+        "name": "Mallard duck",
+        "value": 90,
+        "emoji": "🦆"
+      },
+      {
+        "name": "Swift",
+        "value": 110,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Needletail",
+        "value": 170,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Golden eagle",
+        "value": 240,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Peregrine falcon",
+        "value": 390,
+        "emoji": "🦅",
+        "note": "In a hunting dive, the fastest animal on the planet."
+      }
     ]
   },
   {
@@ -1256,14 +3274,46 @@
     "category": "geography",
     "format": "integer",
     "items": [
-      { "name": "Loch Ness", "value": 56, "emoji": "🌊" },
-      { "name": "Lake Geneva", "value": 580, "emoji": "🌊" },
-      { "name": "Great Salt Lake", "value": 4400, "emoji": "🌊" },
-      { "name": "Lake Victoria", "value": 59947, "emoji": "🌊" },
-      { "name": "Lake Superior", "value": 82100, "emoji": "🌊" },
-      { "name": "Caspian Sea", "value": 371000, "emoji": "🌊" },
-      { "name": "Black Sea", "value": 436000, "emoji": "🌊" },
-      { "name": "Mediterranean Sea", "value": 2500000, "emoji": "🌊" }
+      {
+        "name": "Loch Ness",
+        "value": 56,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Lake Geneva",
+        "value": 580,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Great Salt Lake",
+        "value": 4400,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Lake Victoria",
+        "value": 59947,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Lake Superior",
+        "value": 82100,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Caspian Sea",
+        "value": 371000,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Black Sea",
+        "value": 436000,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Mediterranean Sea",
+        "value": 2500000,
+        "emoji": "🌊"
+      }
     ]
   },
   {
@@ -1276,14 +3326,4076 @@
     "category": "science",
     "format": "integer",
     "items": [
-      { "name": "Hydrogen", "value": 1, "emoji": "🎈" },
-      { "name": "Carbon", "value": 6, "emoji": "✏️" },
-      { "name": "Oxygen", "value": 8, "emoji": "💨" },
-      { "name": "Iron", "value": 26, "emoji": "🧲" },
-      { "name": "Silver", "value": 47, "emoji": "🥈" },
-      { "name": "Gold", "value": 79, "emoji": "🥇" },
-      { "name": "Lead", "value": 82, "emoji": "🪨" },
-      { "name": "Uranium", "value": 92, "emoji": "☢️", "note": "The heaviest element that occurs in any real quantity in nature." }
+      {
+        "name": "Hydrogen",
+        "value": 1,
+        "emoji": "🎈"
+      },
+      {
+        "name": "Carbon",
+        "value": 6,
+        "emoji": "✏️"
+      },
+      {
+        "name": "Oxygen",
+        "value": 8,
+        "emoji": "💨"
+      },
+      {
+        "name": "Iron",
+        "value": 26,
+        "emoji": "🧲"
+      },
+      {
+        "name": "Silver",
+        "value": 47,
+        "emoji": "🥈"
+      },
+      {
+        "name": "Gold",
+        "value": 79,
+        "emoji": "🥇"
+      },
+      {
+        "name": "Lead",
+        "value": 82,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Uranium",
+        "value": 92,
+        "emoji": "☢️",
+        "note": "The heaviest element that occurs in any real quantity in nature."
+      }
+    ]
+  },
+  {
+    "id": "f2-bird-wingspan",
+    "axis": "Bird wingspan",
+    "prompt": "Order these birds from narrowest to widest wingspan.",
+    "unit": "cm",
+    "lowLabel": "Narrowest",
+    "highLabel": "Widest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Bee hummingbird",
+        "value": 7,
+        "emoji": "🐦",
+        "note": "The smallest bird on Earth."
+      },
+      {
+        "name": "House sparrow",
+        "value": 24,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Rock pigeon",
+        "value": 66,
+        "emoji": "🕊️"
+      },
+      {
+        "name": "Peregrine falcon",
+        "value": 104,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Herring gull",
+        "value": 140,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Golden eagle",
+        "value": 210,
+        "emoji": "🦅"
+      },
+      {
+        "name": "California condor",
+        "value": 277,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Wandering albatross",
+        "value": 340,
+        "emoji": "🐦",
+        "note": "The largest wingspan of any living bird."
+      }
+    ]
+  },
+  {
+    "id": "f2-sleep-hours",
+    "axis": "Hours of sleep per day",
+    "prompt": "Order these animals from least to most sleep per day.",
+    "unit": "hours",
+    "lowLabel": "Least",
+    "highLabel": "Most",
+    "category": "animals",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Horse",
+        "value": 2.9,
+        "emoji": "🐴",
+        "note": "Can doze standing up, so it sleeps very little."
+      },
+      {
+        "name": "Cow",
+        "value": 4,
+        "emoji": "🐄"
+      },
+      {
+        "name": "Human",
+        "value": 8,
+        "emoji": "🧑"
+      },
+      {
+        "name": "Dog",
+        "value": 10.6,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Cat",
+        "value": 12.1,
+        "emoji": "🐈"
+      },
+      {
+        "name": "Lion",
+        "value": 13.5,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Tiger",
+        "value": 15.8,
+        "emoji": "🐅"
+      },
+      {
+        "name": "Little brown bat",
+        "value": 19.9,
+        "emoji": "🦇",
+        "note": "One of the sleepiest mammals known."
+      }
+    ]
+  },
+  {
+    "id": "f2-migration-distance",
+    "axis": "Annual migration distance",
+    "prompt": "Order these animals from shortest to longest yearly migration.",
+    "unit": "km",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Wildebeest",
+        "value": 3000,
+        "emoji": "🦬",
+        "note": "The Serengeti's great circular migration."
+      },
+      {
+        "name": "Caribou",
+        "value": 5000,
+        "emoji": "🦌",
+        "note": "The longest overland migration of any animal."
+      },
+      {
+        "name": "Leatherback turtle",
+        "value": 15000,
+        "emoji": "🐢"
+      },
+      {
+        "name": "Barn swallow",
+        "value": 24000,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Bar-tailed godwit",
+        "value": 30000,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Short-tailed shearwater",
+        "value": 45000,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Sooty shearwater",
+        "value": 64000,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Arctic tern",
+        "value": 70000,
+        "emoji": "🐦",
+        "note": "Pole to pole and back — the longest migration of any animal."
+      }
+    ]
+  },
+  {
+    "id": "f2-dive-depth",
+    "axis": "Maximum dive depth",
+    "prompt": "Order these animals from shallowest to deepest dive.",
+    "unit": "m",
+    "lowLabel": "Shallowest",
+    "highLabel": "Deepest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Sea otter",
+        "value": 100,
+        "emoji": "🦦"
+      },
+      {
+        "name": "Bottlenose dolphin",
+        "value": 300,
+        "emoji": "🐬"
+      },
+      {
+        "name": "Emperor penguin",
+        "value": 560,
+        "emoji": "🐧",
+        "note": "The deepest-diving bird."
+      },
+      {
+        "name": "Weddell seal",
+        "value": 740,
+        "emoji": "🦭"
+      },
+      {
+        "name": "Leatherback turtle",
+        "value": 1280,
+        "emoji": "🐢"
+      },
+      {
+        "name": "Northern elephant seal",
+        "value": 1700,
+        "emoji": "🦭"
+      },
+      {
+        "name": "Sperm whale",
+        "value": 2250,
+        "emoji": "🐳"
+      },
+      {
+        "name": "Cuvier's beaked whale",
+        "value": 2992,
+        "emoji": "🐋",
+        "note": "The deepest dive ever recorded for a mammal."
+      }
+    ]
+  },
+  {
+    "id": "f2-brain-mass",
+    "axis": "Brain mass",
+    "prompt": "Order these animals from smallest to largest brain.",
+    "unit": "g",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Rat",
+        "value": 2,
+        "emoji": "🐀"
+      },
+      {
+        "name": "Cat",
+        "value": 30,
+        "emoji": "🐈"
+      },
+      {
+        "name": "Dog",
+        "value": 70,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Chimpanzee",
+        "value": 400,
+        "emoji": "🐒"
+      },
+      {
+        "name": "Horse",
+        "value": 600,
+        "emoji": "🐴"
+      },
+      {
+        "name": "Human",
+        "value": 1350,
+        "emoji": "🧑",
+        "note": "About 2% of body weight, unusually large for our size."
+      },
+      {
+        "name": "Elephant",
+        "value": 5000,
+        "emoji": "🐘"
+      },
+      {
+        "name": "Sperm whale",
+        "value": 7800,
+        "emoji": "🐋",
+        "note": "The largest brain of any animal."
+      }
+    ]
+  },
+  {
+    "id": "f2-teeth-count",
+    "axis": "Number of teeth",
+    "prompt": "Order these animals from fewest to most teeth.",
+    "unit": "teeth",
+    "lowLabel": "Fewest",
+    "highLabel": "Most",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Giant anteater",
+        "value": 0,
+        "emoji": "🐜",
+        "note": "Has no teeth at all — it slurps up ants and termites."
+      },
+      {
+        "name": "Narwhal",
+        "value": 2,
+        "emoji": "🐳",
+        "note": "Just two teeth; in males one grows into a long spiral tusk."
+      },
+      {
+        "name": "Human",
+        "value": 32,
+        "emoji": "🧑"
+      },
+      {
+        "name": "Dog",
+        "value": 42,
+        "emoji": "🐕"
+      },
+      {
+        "name": "Opossum",
+        "value": 50,
+        "emoji": "🐀",
+        "note": "The most teeth of any North American land mammal."
+      },
+      {
+        "name": "Nile crocodile",
+        "value": 66,
+        "emoji": "🐊"
+      },
+      {
+        "name": "Bottlenose dolphin",
+        "value": 100,
+        "emoji": "🐬"
+      },
+      {
+        "name": "Spinner dolphin",
+        "value": 220,
+        "emoji": "🐬",
+        "note": "Rows of tiny teeth line its long, thin beak."
+      }
+    ]
+  },
+  {
+    "id": "f2-group-size",
+    "axis": "Typical group size",
+    "prompt": "Order these animals from smallest to largest typical group.",
+    "unit": "",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Tiger",
+        "value": 1,
+        "emoji": "🐅",
+        "note": "Adults live and hunt alone."
+      },
+      {
+        "name": "Gorilla",
+        "value": 12,
+        "emoji": "🦍"
+      },
+      {
+        "name": "Baboon",
+        "value": 80,
+        "emoji": "🐒"
+      },
+      {
+        "name": "African buffalo",
+        "value": 500,
+        "emoji": "🐃"
+      },
+      {
+        "name": "Flamingo",
+        "value": 2000,
+        "emoji": "🦩"
+      },
+      {
+        "name": "Honeybee",
+        "value": 50000,
+        "emoji": "🐝"
+      },
+      {
+        "name": "Wildebeest",
+        "value": 500000,
+        "emoji": "🦬"
+      },
+      {
+        "name": "Red-billed quelea",
+        "value": 2000000,
+        "emoji": "🐦",
+        "note": "The most numerous wild bird; flocks number in the millions."
+      }
+    ]
+  },
+  {
+    "id": "f2-incubation",
+    "axis": "Egg incubation period",
+    "prompt": "Order these birds from shortest to longest time for their eggs to hatch.",
+    "unit": "days",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "animals",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Hummingbird",
+        "value": 14,
+        "emoji": "🐦"
+      },
+      {
+        "name": "Pigeon",
+        "value": 18,
+        "emoji": "🕊️"
+      },
+      {
+        "name": "Chicken",
+        "value": 21,
+        "emoji": "🐔",
+        "note": "The classic 21 days from egg to chick."
+      },
+      {
+        "name": "Duck",
+        "value": 28,
+        "emoji": "🦆"
+      },
+      {
+        "name": "Swan",
+        "value": 36,
+        "emoji": "🦢"
+      },
+      {
+        "name": "Ostrich",
+        "value": 44,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Emperor penguin",
+        "value": 66,
+        "emoji": "🐧",
+        "note": "The male incubates it on his feet through the Antarctic winter."
+      },
+      {
+        "name": "Kiwi",
+        "value": 80,
+        "emoji": "🐣",
+        "note": "One of the longest incubations of any bird."
+      }
+    ]
+  },
+  {
+    "id": "f1-cereal-sugar",
+    "axis": "Cereal sugar",
+    "prompt": "Order these breakfast cereals from the least to the most sugar per 100 g.",
+    "unit": "g",
+    "lowLabel": "Least sugary",
+    "highLabel": "Most sugary",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Shredded Wheat",
+        "value": 1,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Cheerios",
+        "value": 4,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Corn Flakes",
+        "value": 8,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Rice Krispies",
+        "value": 10,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Special K",
+        "value": 17,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Frosted Flakes",
+        "value": 37,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Froot Loops",
+        "value": 44,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Honey Smacks",
+        "value": 56,
+        "emoji": "🥣",
+        "note": "Among the most sugary cereals — over half sugar by weight."
+      }
+    ]
+  },
+  {
+    "id": "f1-baking-temp",
+    "axis": "Oven temperature",
+    "prompt": "Order these dishes from the lowest to the highest typical oven temperature.",
+    "unit": "°F",
+    "lowLabel": "Coolest oven",
+    "highLabel": "Hottest oven",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Meringue",
+        "value": 200,
+        "emoji": "🧁",
+        "note": "Baked low and slow to dry out rather than brown."
+      },
+      {
+        "name": "Slow-roast brisket",
+        "value": 250,
+        "emoji": "🍖"
+      },
+      {
+        "name": "Cheesecake",
+        "value": 325,
+        "emoji": "🍰"
+      },
+      {
+        "name": "Chocolate chip cookies",
+        "value": 350,
+        "emoji": "🍪"
+      },
+      {
+        "name": "Roast chicken",
+        "value": 375,
+        "emoji": "🍗"
+      },
+      {
+        "name": "Apple pie",
+        "value": 425,
+        "emoji": "🥧"
+      },
+      {
+        "name": "Artisan bread",
+        "value": 450,
+        "emoji": "🍞"
+      },
+      {
+        "name": "Pizza (home oven)",
+        "value": 500,
+        "emoji": "🍕"
+      }
+    ]
+  },
+  {
+    "id": "f1-dairy-fat",
+    "axis": "Milkfat content",
+    "prompt": "Order these dairy products from the lowest to the highest milkfat.",
+    "unit": "%",
+    "lowLabel": "Lowest fat",
+    "highLabel": "Highest fat",
+    "category": "food",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Skim milk",
+        "value": 0.1,
+        "emoji": "🥛"
+      },
+      {
+        "name": "1% milk",
+        "value": 1,
+        "emoji": "🥛"
+      },
+      {
+        "name": "2% milk",
+        "value": 2,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Whole milk",
+        "value": 3.25,
+        "emoji": "🥛",
+        "note": "US whole milk is standardized to 3.25% fat."
+      },
+      {
+        "name": "Half-and-half",
+        "value": 12,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Light cream",
+        "value": 20,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Whipping cream",
+        "value": 30,
+        "emoji": "🥛"
+      },
+      {
+        "name": "Heavy cream",
+        "value": 36,
+        "emoji": "🥛"
+      }
+    ]
+  },
+  {
+    "id": "f1-fastfood-sodium",
+    "axis": "Fast-food sodium",
+    "prompt": "Order these fast-food items from the least to the most sodium.",
+    "unit": "mg",
+    "lowLabel": "Least salty",
+    "highLabel": "Most salty",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "McDonald's Small Fries",
+        "value": 190,
+        "emoji": "🍟"
+      },
+      {
+        "name": "Taco Bell Crunchy Taco",
+        "value": 310,
+        "emoji": "🌮"
+      },
+      {
+        "name": "McDonald's Hamburger",
+        "value": 510,
+        "emoji": "🍔"
+      },
+      {
+        "name": "Big Mac",
+        "value": 1010,
+        "emoji": "🍔"
+      },
+      {
+        "name": "Quarter Pounder with Cheese",
+        "value": 1140,
+        "emoji": "🍔"
+      },
+      {
+        "name": "Chick-fil-A Chicken Sandwich",
+        "value": 1400,
+        "emoji": "🍗"
+      },
+      {
+        "name": "Subway Footlong Italian B.M.T.",
+        "value": 1800,
+        "emoji": "🥪"
+      },
+      {
+        "name": "KFC Famous Bowl",
+        "value": 1980,
+        "emoji": "🍗"
+      }
+    ]
+  },
+  {
+    "id": "f1-wine-bottle-size",
+    "axis": "Wine bottle size",
+    "prompt": "Order these wine bottle formats from the smallest to the largest volume.",
+    "unit": "L",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "drink",
+    "format": "number",
+    "decimals": 3,
+    "items": [
+      {
+        "name": "Half bottle (Demi)",
+        "value": 0.375,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Standard bottle",
+        "value": 0.75,
+        "emoji": "🍷"
+      },
+      {
+        "name": "Magnum",
+        "value": 1.5,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Jeroboam",
+        "value": 3,
+        "emoji": "🍾",
+        "note": "Equal to four standard bottles."
+      },
+      {
+        "name": "Rehoboam",
+        "value": 4.5,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Methuselah",
+        "value": 6,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Salmanazar",
+        "value": 9,
+        "emoji": "🍾"
+      },
+      {
+        "name": "Nebuchadnezzar",
+        "value": 15,
+        "emoji": "🍾",
+        "note": "Holds 20 standard bottles."
+      }
+    ]
+  },
+  {
+    "id": "f1-cooking-volumes",
+    "axis": "Kitchen measures",
+    "prompt": "Order these kitchen measures from the smallest to the largest volume.",
+    "unit": "ml",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Teaspoon",
+        "value": 5,
+        "emoji": "🥄"
+      },
+      {
+        "name": "Tablespoon",
+        "value": 15,
+        "emoji": "🥄"
+      },
+      {
+        "name": "Fluid ounce",
+        "value": 30,
+        "emoji": "🥄"
+      },
+      {
+        "name": "Quarter cup",
+        "value": 60,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Half cup",
+        "value": 120,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Cup",
+        "value": 240,
+        "emoji": "🥣"
+      },
+      {
+        "name": "Pint",
+        "value": 473,
+        "emoji": "🍶"
+      },
+      {
+        "name": "Quart",
+        "value": 946,
+        "emoji": "🍶"
+      }
+    ]
+  },
+  {
+    "id": "f1-fruit-weight",
+    "axis": "Fruit weight",
+    "prompt": "Arrange these fruits from the lightest to the heaviest (one typical fruit).",
+    "unit": "g",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Grape",
+        "value": 5,
+        "emoji": "🍇"
+      },
+      {
+        "name": "Strawberry",
+        "value": 12,
+        "emoji": "🍓"
+      },
+      {
+        "name": "Kiwi",
+        "value": 75,
+        "emoji": "🥝"
+      },
+      {
+        "name": "Lemon",
+        "value": 100,
+        "emoji": "🍋"
+      },
+      {
+        "name": "Apple",
+        "value": 180,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Grapefruit",
+        "value": 250,
+        "emoji": "🍊"
+      },
+      {
+        "name": "Pineapple",
+        "value": 1000,
+        "emoji": "🍍"
+      },
+      {
+        "name": "Watermelon",
+        "value": 5000,
+        "emoji": "🍉",
+        "note": "A typical whole melon weighs several kilograms."
+      }
+    ]
+  },
+  {
+    "id": "f1-crop-production",
+    "axis": "Crop production",
+    "prompt": "Order these crops from the least to the most produced worldwide each year (million tonnes).",
+    "unit": "Mt",
+    "lowLabel": "Least produced",
+    "highLabel": "Most produced",
+    "category": "food",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Coffee (green beans)",
+        "value": 10,
+        "emoji": "☕"
+      },
+      {
+        "name": "Grapes",
+        "value": 80,
+        "emoji": "🍇"
+      },
+      {
+        "name": "Bananas",
+        "value": 135,
+        "emoji": "🍌"
+      },
+      {
+        "name": "Tomatoes",
+        "value": 190,
+        "emoji": "🍅"
+      },
+      {
+        "name": "Potatoes",
+        "value": 375,
+        "emoji": "🥔"
+      },
+      {
+        "name": "Wheat",
+        "value": 790,
+        "emoji": "🌾"
+      },
+      {
+        "name": "Maize (corn)",
+        "value": 1210,
+        "emoji": "🌽"
+      },
+      {
+        "name": "Sugarcane",
+        "value": 1900,
+        "emoji": "🎋",
+        "note": "The world's most-produced crop by weight."
+      }
+    ]
+  },
+  {
+    "id": "f1-fish-mercury",
+    "axis": "Mercury in seafood",
+    "prompt": "Order these seafoods from the lowest to the highest average mercury level.",
+    "unit": "ppm",
+    "lowLabel": "Lowest mercury",
+    "highLabel": "Highest mercury",
+    "category": "food",
+    "format": "number",
+    "decimals": 3,
+    "items": [
+      {
+        "name": "Shrimp",
+        "value": 0.009,
+        "emoji": "🦐",
+        "note": "One of the lowest-mercury seafoods."
+      },
+      {
+        "name": "Salmon",
+        "value": 0.022,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Canned light tuna",
+        "value": 0.126,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Halibut",
+        "value": 0.241,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Albacore (white) tuna",
+        "value": 0.35,
+        "emoji": "🐟"
+      },
+      {
+        "name": "King mackerel",
+        "value": 0.73,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Swordfish",
+        "value": 0.995,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Tilefish",
+        "value": 1.123,
+        "emoji": "🐟",
+        "note": "Among the highest-mercury fish; advised against for pregnant women."
+      }
+    ]
+  },
+  {
+    "id": "f4-mohs-hardness",
+    "axis": "Mohs hardness",
+    "prompt": "Order these minerals from softest to hardest on the Mohs scale",
+    "unit": "",
+    "lowLabel": "Softest",
+    "highLabel": "Hardest",
+    "category": "science",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Talc",
+        "value": 1,
+        "emoji": "🧴",
+        "note": "The reference for Mohs 1 — soft enough to scratch with a fingernail."
+      },
+      {
+        "name": "Gypsum",
+        "value": 2,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Calcite",
+        "value": 3,
+        "emoji": "⚪"
+      },
+      {
+        "name": "Fluorite",
+        "value": 4,
+        "emoji": "💜"
+      },
+      {
+        "name": "Apatite",
+        "value": 5,
+        "emoji": "🦴"
+      },
+      {
+        "name": "Quartz",
+        "value": 7,
+        "emoji": "🔮"
+      },
+      {
+        "name": "Topaz",
+        "value": 8,
+        "emoji": "💛"
+      },
+      {
+        "name": "Diamond",
+        "value": 10,
+        "emoji": "💎",
+        "note": "The hardest natural material — the top of the Mohs scale."
+      }
+    ]
+  },
+  {
+    "id": "f4-thermal-conductivity",
+    "axis": "Thermal conductivity",
+    "prompt": "Order these materials from the worst to the best conductor of heat",
+    "unit": "W/m·K",
+    "lowLabel": "Insulator",
+    "highLabel": "Conductor",
+    "category": "science",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Oak wood",
+        "value": 0.2,
+        "emoji": "🪵"
+      },
+      {
+        "name": "Water",
+        "value": 0.6,
+        "emoji": "💧"
+      },
+      {
+        "name": "Glass",
+        "value": 1,
+        "emoji": "🪟"
+      },
+      {
+        "name": "Stainless steel",
+        "value": 16,
+        "emoji": "🍴"
+      },
+      {
+        "name": "Iron",
+        "value": 80,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Aluminum",
+        "value": 237,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Copper",
+        "value": 401,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Silver",
+        "value": 429,
+        "emoji": "🥈",
+        "note": "The best thermal conductor of any metal."
+      }
+    ]
+  },
+  {
+    "id": "f4-speed-of-sound-media",
+    "axis": "Speed of sound through a medium",
+    "prompt": "Order these materials by how fast sound travels through them",
+    "unit": "m/s",
+    "lowLabel": "Slowest",
+    "highLabel": "Fastest",
+    "category": "science",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Air",
+        "value": 343,
+        "emoji": "🌬️",
+        "note": "About 343 m/s at 20°C — far slower than in solids."
+      },
+      {
+        "name": "Water",
+        "value": 1480,
+        "emoji": "💧"
+      },
+      {
+        "name": "Lead",
+        "value": 1960,
+        "emoji": "🔗"
+      },
+      {
+        "name": "Gold",
+        "value": 3240,
+        "emoji": "🏅"
+      },
+      {
+        "name": "Glass",
+        "value": 4540,
+        "emoji": "🪟"
+      },
+      {
+        "name": "Steel",
+        "value": 5960,
+        "emoji": "🔩"
+      },
+      {
+        "name": "Aluminum",
+        "value": 6320,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Diamond",
+        "value": 12000,
+        "emoji": "💎",
+        "note": "Its rigid lattice carries sound faster than any common material."
+      }
+    ]
+  },
+  {
+    "id": "f4-refractive-index",
+    "axis": "Refractive index",
+    "prompt": "Order these materials by how much they bend light (refractive index)",
+    "unit": "",
+    "lowLabel": "Bends least",
+    "highLabel": "Bends most",
+    "category": "science",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Air",
+        "value": 1,
+        "emoji": "🌬️"
+      },
+      {
+        "name": "Water",
+        "value": 1.33,
+        "emoji": "💧"
+      },
+      {
+        "name": "Glycerin",
+        "value": 1.47,
+        "emoji": "🧴"
+      },
+      {
+        "name": "Crown glass",
+        "value": 1.52,
+        "emoji": "🪟"
+      },
+      {
+        "name": "Flint glass",
+        "value": 1.62,
+        "emoji": "🔍"
+      },
+      {
+        "name": "Sapphire",
+        "value": 1.77,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Cubic zirconia",
+        "value": 2.16,
+        "emoji": "✨"
+      },
+      {
+        "name": "Diamond",
+        "value": 2.42,
+        "emoji": "💎",
+        "note": "Its high index and dispersion give diamonds their fire."
+      }
+    ]
+  },
+  {
+    "id": "f4-light-wavelength",
+    "axis": "Wavelength of visible light",
+    "prompt": "Order these colors of light from shortest to longest wavelength",
+    "unit": "nm",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "science",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Violet",
+        "value": 410,
+        "emoji": "🟣",
+        "note": "The shortest wavelength the human eye can see."
+      },
+      {
+        "name": "Indigo",
+        "value": 445,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Blue",
+        "value": 475,
+        "emoji": "💙"
+      },
+      {
+        "name": "Cyan",
+        "value": 500,
+        "emoji": "🩵"
+      },
+      {
+        "name": "Green",
+        "value": 530,
+        "emoji": "💚"
+      },
+      {
+        "name": "Yellow",
+        "value": 580,
+        "emoji": "💛"
+      },
+      {
+        "name": "Orange",
+        "value": 610,
+        "emoji": "🧡"
+      },
+      {
+        "name": "Red",
+        "value": 680,
+        "emoji": "❤️",
+        "note": "The longest visible wavelength before infrared."
+      }
+    ]
+  },
+  {
+    "id": "f4-specific-heat",
+    "axis": "Specific heat capacity",
+    "prompt": "Order these substances by how much heat it takes to warm them (specific heat)",
+    "unit": "J/g·K",
+    "lowLabel": "Heats easily",
+    "highLabel": "Resists heating",
+    "category": "science",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Gold",
+        "value": 0.13,
+        "emoji": "🏅"
+      },
+      {
+        "name": "Copper",
+        "value": 0.39,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Iron",
+        "value": 0.45,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Aluminum",
+        "value": 0.9,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Wood",
+        "value": 1.7,
+        "emoji": "🪵"
+      },
+      {
+        "name": "Ice",
+        "value": 2.09,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Ethanol",
+        "value": 2.44,
+        "emoji": "🍸"
+      },
+      {
+        "name": "Water",
+        "value": 4.18,
+        "emoji": "💧",
+        "note": "Its very high specific heat moderates Earth's climate."
+      }
+    ]
+  },
+  {
+    "id": "f4-isotope-halflife",
+    "axis": "Radioactive half-life",
+    "prompt": "Order these radioactive isotopes from shortest to longest half-life",
+    "unit": "years",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "science",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Cobalt-60",
+        "value": 5.27,
+        "emoji": "☢️"
+      },
+      {
+        "name": "Tritium (H-3)",
+        "value": 12.32,
+        "emoji": "💧"
+      },
+      {
+        "name": "Cesium-137",
+        "value": 30.17,
+        "emoji": "⚠️"
+      },
+      {
+        "name": "Radium-226",
+        "value": 1600,
+        "emoji": "🌟"
+      },
+      {
+        "name": "Carbon-14",
+        "value": 5730,
+        "emoji": "🦴",
+        "note": "Its half-life underpins radiocarbon dating."
+      },
+      {
+        "name": "Plutonium-239",
+        "value": 24110,
+        "emoji": "💣"
+      },
+      {
+        "name": "Uranium-235",
+        "value": 703800000,
+        "emoji": "⚛️"
+      },
+      {
+        "name": "Uranium-238",
+        "value": 4468000000,
+        "emoji": "🪨",
+        "note": "Its half-life is roughly the age of the Earth."
+      }
+    ]
+  },
+  {
+    "id": "f4-tensile-strength",
+    "axis": "Ultimate tensile strength",
+    "prompt": "Order these materials by how much pulling force they withstand before breaking",
+    "unit": "MPa",
+    "lowLabel": "Weakest",
+    "highLabel": "Strongest",
+    "category": "science",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Concrete",
+        "value": 4,
+        "emoji": "🧱",
+        "note": "Strong under compression but very weak in tension."
+      },
+      {
+        "name": "Rubber",
+        "value": 15,
+        "emoji": "🎈"
+      },
+      {
+        "name": "Aluminum",
+        "value": 90,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Copper",
+        "value": 210,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Titanium",
+        "value": 434,
+        "emoji": "🛩️"
+      },
+      {
+        "name": "Steel",
+        "value": 860,
+        "emoji": "🔩"
+      },
+      {
+        "name": "Kevlar",
+        "value": 3620,
+        "emoji": "🦺"
+      },
+      {
+        "name": "Carbon fiber",
+        "value": 4000,
+        "emoji": "🏎️",
+        "note": "Extremely strong for its weight."
+      }
+    ]
+  },
+  {
+    "id": "f4-youngs-modulus",
+    "axis": "Young's modulus (stiffness)",
+    "prompt": "Order these materials from least to most stiff (resistance to stretching)",
+    "unit": "GPa",
+    "lowLabel": "Flexible",
+    "highLabel": "Stiff",
+    "category": "science",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Nylon",
+        "value": 3,
+        "emoji": "🧵"
+      },
+      {
+        "name": "Oak wood",
+        "value": 11,
+        "emoji": "🪵"
+      },
+      {
+        "name": "Concrete",
+        "value": 30,
+        "emoji": "🧱"
+      },
+      {
+        "name": "Aluminum",
+        "value": 69,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Copper",
+        "value": 120,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Steel",
+        "value": 200,
+        "emoji": "🔩"
+      },
+      {
+        "name": "Tungsten",
+        "value": 411,
+        "emoji": "💡"
+      },
+      {
+        "name": "Diamond",
+        "value": 1200,
+        "emoji": "💎",
+        "note": "The stiffest known bulk material."
+      }
+    ]
+  },
+  {
+    "id": "f4-electronegativity",
+    "axis": "Electronegativity (Pauling scale)",
+    "prompt": "Order these elements by how strongly they pull on shared electrons",
+    "unit": "",
+    "lowLabel": "Weakest pull",
+    "highLabel": "Strongest pull",
+    "category": "science",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Cesium",
+        "value": 0.79,
+        "emoji": "🔋",
+        "note": "One of the least electronegative elements."
+      },
+      {
+        "name": "Sodium",
+        "value": 0.93,
+        "emoji": "🧂"
+      },
+      {
+        "name": "Hydrogen",
+        "value": 2.2,
+        "emoji": "🎈"
+      },
+      {
+        "name": "Carbon",
+        "value": 2.55,
+        "emoji": "✏️"
+      },
+      {
+        "name": "Nitrogen",
+        "value": 3.04,
+        "emoji": "💨"
+      },
+      {
+        "name": "Chlorine",
+        "value": 3.16,
+        "emoji": "🏊"
+      },
+      {
+        "name": "Oxygen",
+        "value": 3.44,
+        "emoji": "🫧"
+      },
+      {
+        "name": "Fluorine",
+        "value": 3.98,
+        "emoji": "🦷",
+        "note": "The most electronegative element of all."
+      }
+    ]
+  },
+  {
+    "id": "f3-surface-gravity",
+    "axis": "Surface gravity",
+    "prompt": "Order these worlds from weakest to strongest surface gravity.",
+    "unit": "m/s²",
+    "lowLabel": "Weakest",
+    "highLabel": "Strongest",
+    "category": "space",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Pluto",
+        "value": 0.62,
+        "emoji": "🪐",
+        "note": "So weak you could leap over a house."
+      },
+      {
+        "name": "The Moon",
+        "value": 1.62,
+        "emoji": "🌕",
+        "note": "About one-sixth of Earth's pull."
+      },
+      {
+        "name": "Mars",
+        "value": 3.72,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Venus",
+        "value": 8.87,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Earth",
+        "value": 9.81,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Neptune",
+        "value": 11.15,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Jupiter",
+        "value": 24.79,
+        "emoji": "🟠"
+      },
+      {
+        "name": "The Sun",
+        "value": 274,
+        "emoji": "☀️",
+        "note": "Nearly 28 times Earth's gravity."
+      }
+    ]
+  },
+  {
+    "id": "f3-orbital-period",
+    "axis": "Length of year (orbital period)",
+    "prompt": "Order the planets from shortest to longest year.",
+    "unit": "Earth years",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "space",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Mercury",
+        "value": 0.24,
+        "emoji": "☿️",
+        "note": "A year lasts just 88 days."
+      },
+      {
+        "name": "Venus",
+        "value": 0.62,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Earth",
+        "value": 1,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Mars",
+        "value": 1.88,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Jupiter",
+        "value": 11.86,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Saturn",
+        "value": 29.46,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Uranus",
+        "value": 84.01,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Neptune",
+        "value": 164.8,
+        "emoji": "🔵",
+        "note": "One Neptune year is almost 165 of ours."
+      }
+    ]
+  },
+  {
+    "id": "f3-planet-mass",
+    "axis": "Planet mass",
+    "prompt": "Order the planets from lightest to heaviest.",
+    "unit": "×10²⁴ kg",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "space",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Mercury",
+        "value": 0.33,
+        "emoji": "☿️"
+      },
+      {
+        "name": "Mars",
+        "value": 0.64,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Venus",
+        "value": 4.87,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Earth",
+        "value": 5.97,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Uranus",
+        "value": 86.8,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Neptune",
+        "value": 102,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Saturn",
+        "value": 568,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Jupiter",
+        "value": 1898,
+        "emoji": "🟠",
+        "note": "More than twice the mass of all other planets combined."
+      }
+    ]
+  },
+  {
+    "id": "f3-moon-diameter",
+    "axis": "Moon diameter",
+    "prompt": "Order these moons from smallest to largest.",
+    "unit": "km",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "space",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Enceladus",
+        "value": 504,
+        "emoji": "❄️",
+        "note": "Saturn's ice moon with geysers."
+      },
+      {
+        "name": "Triton",
+        "value": 2707,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Europa",
+        "value": 3122,
+        "emoji": "🌊"
+      },
+      {
+        "name": "The Moon",
+        "value": 3475,
+        "emoji": "🌕"
+      },
+      {
+        "name": "Io",
+        "value": 3643,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Callisto",
+        "value": 4821,
+        "emoji": "⚪"
+      },
+      {
+        "name": "Titan",
+        "value": 5150,
+        "emoji": "🟧",
+        "note": "Saturn's moon has a thick atmosphere."
+      },
+      {
+        "name": "Ganymede",
+        "value": 5268,
+        "emoji": "🟤",
+        "note": "The largest moon in the solar system."
+      }
+    ]
+  },
+  {
+    "id": "f3-star-radius",
+    "axis": "Star radius",
+    "prompt": "Order these stars from smallest to largest radius.",
+    "unit": "× Sun",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "space",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "The Sun",
+        "value": 1,
+        "emoji": "☀️"
+      },
+      {
+        "name": "Sirius A",
+        "value": 1.7,
+        "emoji": "✨",
+        "note": "The brightest star in the night sky."
+      },
+      {
+        "name": "Vega",
+        "value": 2.4,
+        "emoji": "💎"
+      },
+      {
+        "name": "Pollux",
+        "value": 9.1,
+        "emoji": "🌟"
+      },
+      {
+        "name": "Arcturus",
+        "value": 25,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Aldebaran",
+        "value": 45,
+        "emoji": "🔶"
+      },
+      {
+        "name": "Rigel",
+        "value": 79,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Betelgeuse",
+        "value": 764,
+        "emoji": "🔴",
+        "note": "A red supergiant far larger than the Sun."
+      }
+    ]
+  },
+  {
+    "id": "f3-dwarf-planet-size",
+    "axis": "Dwarf-planet & asteroid diameter",
+    "prompt": "Order these dwarf planets and asteroids from smallest to largest.",
+    "unit": "km",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "space",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Hygiea",
+        "value": 434,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Vesta",
+        "value": 525,
+        "emoji": "☄️"
+      },
+      {
+        "name": "Ceres",
+        "value": 940,
+        "emoji": "⚪",
+        "note": "The largest object in the asteroid belt."
+      },
+      {
+        "name": "Quaoar",
+        "value": 1090,
+        "emoji": "🟤"
+      },
+      {
+        "name": "Charon",
+        "value": 1212,
+        "emoji": "🌑",
+        "note": "Pluto's giant companion moon."
+      },
+      {
+        "name": "Makemake",
+        "value": 1430,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Haumea",
+        "value": 1560,
+        "emoji": "🥚",
+        "note": "An egg-shaped dwarf planet that spins very fast."
+      },
+      {
+        "name": "Pluto",
+        "value": 2377,
+        "emoji": "🪐"
+      }
+    ]
+  },
+  {
+    "id": "f3-rocket-height",
+    "axis": "Rocket height",
+    "prompt": "Order these rockets from shortest to tallest.",
+    "unit": "m",
+    "lowLabel": "Shortest",
+    "highLabel": "Tallest",
+    "category": "space",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "V-2",
+        "value": 14,
+        "emoji": "🚀",
+        "note": "The first long-range guided rocket."
+      },
+      {
+        "name": "Soyuz",
+        "value": 46.1,
+        "emoji": "🛰️"
+      },
+      {
+        "name": "Ariane 5",
+        "value": 52,
+        "emoji": "🇪🇺"
+      },
+      {
+        "name": "Space Shuttle",
+        "value": 56.1,
+        "emoji": "🚀"
+      },
+      {
+        "name": "Falcon 9",
+        "value": 70,
+        "emoji": "🚀"
+      },
+      {
+        "name": "SLS",
+        "value": 98,
+        "emoji": "🌙"
+      },
+      {
+        "name": "Saturn V",
+        "value": 110.6,
+        "emoji": "🧑‍🚀",
+        "note": "Carried astronauts to the Moon."
+      },
+      {
+        "name": "Starship",
+        "value": 121,
+        "emoji": "🛸",
+        "note": "The tallest rocket ever built."
+      }
+    ]
+  },
+  {
+    "id": "f3-telescope-aperture",
+    "axis": "Telescope aperture",
+    "prompt": "Order these telescopes from smallest to largest mirror.",
+    "unit": "m",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "space",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Hubble",
+        "value": 2.4,
+        "emoji": "🛰️"
+      },
+      {
+        "name": "Hale (Palomar)",
+        "value": 5.1,
+        "emoji": "🔭"
+      },
+      {
+        "name": "James Webb",
+        "value": 6.5,
+        "emoji": "✨",
+        "note": "Its gold mirror observes in infrared."
+      },
+      {
+        "name": "Subaru",
+        "value": 8.2,
+        "emoji": "🔭"
+      },
+      {
+        "name": "Keck",
+        "value": 10,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Giant Magellan",
+        "value": 25.4,
+        "emoji": "🔭"
+      },
+      {
+        "name": "Thirty Meter Telescope",
+        "value": 30,
+        "emoji": "🔭"
+      },
+      {
+        "name": "Extremely Large Telescope",
+        "value": 39.3,
+        "emoji": "👁️",
+        "note": "Will be the largest optical telescope on Earth."
+      }
+    ]
+  },
+  {
+    "id": "f3-orbital-velocity",
+    "axis": "Orbital velocity",
+    "prompt": "Order the planets from slowest to fastest orbit around the Sun.",
+    "unit": "km/s",
+    "lowLabel": "Slowest",
+    "highLabel": "Fastest",
+    "category": "space",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Neptune",
+        "value": 5.43,
+        "emoji": "🔵"
+      },
+      {
+        "name": "Uranus",
+        "value": 6.8,
+        "emoji": "🧊"
+      },
+      {
+        "name": "Saturn",
+        "value": 9.68,
+        "emoji": "🪐"
+      },
+      {
+        "name": "Jupiter",
+        "value": 13.07,
+        "emoji": "🟠"
+      },
+      {
+        "name": "Mars",
+        "value": 24.07,
+        "emoji": "🔴"
+      },
+      {
+        "name": "Earth",
+        "value": 29.78,
+        "emoji": "🌍"
+      },
+      {
+        "name": "Venus",
+        "value": 35.02,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Mercury",
+        "value": 47.36,
+        "emoji": "☿️",
+        "note": "The closest planet sweeps around the Sun fastest."
+      }
+    ]
+  },
+  {
+    "id": "f3-spacecraft-launch-year",
+    "axis": "Spacecraft launch year",
+    "prompt": "Order these missions from earliest to most recent launch.",
+    "unit": "",
+    "lowLabel": "Earliest",
+    "highLabel": "Most recent",
+    "category": "space",
+    "format": "year",
+    "items": [
+      {
+        "name": "Sputnik 1",
+        "value": 1957,
+        "emoji": "🛰️",
+        "note": "The first artificial satellite."
+      },
+      {
+        "name": "Apollo 11",
+        "value": 1969,
+        "emoji": "🧑‍🚀",
+        "note": "Took the first humans to the Moon."
+      },
+      {
+        "name": "Voyager 1",
+        "value": 1977,
+        "emoji": "📡"
+      },
+      {
+        "name": "Hubble",
+        "value": 1990,
+        "emoji": "🔭"
+      },
+      {
+        "name": "Cassini",
+        "value": 1997,
+        "emoji": "🪐"
+      },
+      {
+        "name": "New Horizons",
+        "value": 2006,
+        "emoji": "🛸"
+      },
+      {
+        "name": "Curiosity",
+        "value": 2011,
+        "emoji": "🤖"
+      },
+      {
+        "name": "James Webb",
+        "value": 2021,
+        "emoji": "✨"
+      }
+    ]
+  },
+  {
+    "id": "f6-scientist-birth",
+    "axis": "Scientist birth year",
+    "prompt": "Order these famous scientists from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "science",
+    "format": "year",
+    "items": [
+      {
+        "name": "Galileo Galilei",
+        "value": 1564,
+        "emoji": "🔭"
+      },
+      {
+        "name": "Isaac Newton",
+        "value": 1643,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Charles Darwin",
+        "value": 1809,
+        "emoji": "🐢"
+      },
+      {
+        "name": "Louis Pasteur",
+        "value": 1822,
+        "emoji": "🦠"
+      },
+      {
+        "name": "Marie Curie",
+        "value": 1867,
+        "emoji": "☢️",
+        "note": "First person to win Nobel Prizes in two sciences."
+      },
+      {
+        "name": "Albert Einstein",
+        "value": 1879,
+        "emoji": "🧠"
+      },
+      {
+        "name": "Alan Turing",
+        "value": 1912,
+        "emoji": "💻"
+      },
+      {
+        "name": "Stephen Hawking",
+        "value": 1942,
+        "emoji": "🌌"
+      }
+    ]
+  },
+  {
+    "id": "f6-composer-birth",
+    "axis": "Composer birth year",
+    "prompt": "Order these classical composers from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "culture",
+    "format": "year",
+    "items": [
+      {
+        "name": "Antonio Vivaldi",
+        "value": 1678,
+        "emoji": "🎻"
+      },
+      {
+        "name": "Johann Sebastian Bach",
+        "value": 1685,
+        "emoji": "🎹"
+      },
+      {
+        "name": "Wolfgang Amadeus Mozart",
+        "value": 1756,
+        "emoji": "🎼"
+      },
+      {
+        "name": "Ludwig van Beethoven",
+        "value": 1770,
+        "emoji": "🎵"
+      },
+      {
+        "name": "Frédéric Chopin",
+        "value": 1810,
+        "emoji": "🎶"
+      },
+      {
+        "name": "Pyotr Ilyich Tchaikovsky",
+        "value": 1840,
+        "emoji": "🩰"
+      },
+      {
+        "name": "Claude Debussy",
+        "value": 1862,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Igor Stravinsky",
+        "value": 1882,
+        "emoji": "🔥"
+      }
+    ]
+  },
+  {
+    "id": "f6-philosopher-birth",
+    "axis": "Philosopher birth year",
+    "prompt": "Order these philosophers from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "Confucius",
+        "value": -551,
+        "emoji": "☯️"
+      },
+      {
+        "name": "Socrates",
+        "value": -470,
+        "emoji": "🏛️"
+      },
+      {
+        "name": "Plato",
+        "value": -428,
+        "emoji": "📜"
+      },
+      {
+        "name": "Aristotle",
+        "value": -384,
+        "emoji": "📚"
+      },
+      {
+        "name": "René Descartes",
+        "value": 1596,
+        "emoji": "🤔"
+      },
+      {
+        "name": "Immanuel Kant",
+        "value": 1724,
+        "emoji": "🧭"
+      },
+      {
+        "name": "Friedrich Nietzsche",
+        "value": 1844,
+        "emoji": "🪨"
+      },
+      {
+        "name": "Jean-Paul Sartre",
+        "value": 1905,
+        "emoji": "🚬"
+      }
+    ]
+  },
+  {
+    "id": "f6-explorer-voyage",
+    "axis": "Year of famous voyage",
+    "prompt": "Order these explorers by the year of the voyage they are famous for, earliest to latest.",
+    "unit": "",
+    "lowLabel": "Earliest",
+    "highLabel": "Latest",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "Leif Erikson",
+        "value": 1000,
+        "emoji": "🪓"
+      },
+      {
+        "name": "Marco Polo",
+        "value": 1271,
+        "emoji": "🐫"
+      },
+      {
+        "name": "Columbus",
+        "value": 1492,
+        "emoji": "⛵"
+      },
+      {
+        "name": "Vasco da Gama",
+        "value": 1498,
+        "emoji": "🧭"
+      },
+      {
+        "name": "Magellan",
+        "value": 1519,
+        "emoji": "🌍"
+      },
+      {
+        "name": "James Cook",
+        "value": 1768,
+        "emoji": "🗺️"
+      },
+      {
+        "name": "Lewis & Clark",
+        "value": 1804,
+        "emoji": "🏞️"
+      },
+      {
+        "name": "Amundsen",
+        "value": 1911,
+        "emoji": "🐧"
+      }
+    ]
+  },
+  {
+    "id": "f6-empire-founded",
+    "axis": "Empire founding year",
+    "prompt": "Order these empires and dynasties from oldest to most recent founding.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "Akkadian Empire",
+        "value": -2334,
+        "emoji": "🏺",
+        "note": "Often called the world's first empire, under Sargon of Akkad."
+      },
+      {
+        "name": "Achaemenid (Persian) Empire",
+        "value": -550,
+        "emoji": "🦁"
+      },
+      {
+        "name": "Roman Empire",
+        "value": -27,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Byzantine Empire",
+        "value": 330,
+        "emoji": "⛪"
+      },
+      {
+        "name": "Mongol Empire",
+        "value": 1206,
+        "emoji": "🏹"
+      },
+      {
+        "name": "Ottoman Empire",
+        "value": 1299,
+        "emoji": "🌙"
+      },
+      {
+        "name": "Inca Empire",
+        "value": 1438,
+        "emoji": "⛰️"
+      },
+      {
+        "name": "Mughal Empire",
+        "value": 1526,
+        "emoji": "🕌"
+      }
+    ]
+  },
+  {
+    "id": "f6-university-founded",
+    "axis": "University founding year",
+    "prompt": "Order these universities from oldest to most recently founded.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "University of Bologna",
+        "value": 1088,
+        "emoji": "📜",
+        "note": "Widely regarded as the oldest university in continuous operation."
+      },
+      {
+        "name": "University of Paris",
+        "value": 1150,
+        "emoji": "📖"
+      },
+      {
+        "name": "University of Cambridge",
+        "value": 1209,
+        "emoji": "🎓"
+      },
+      {
+        "name": "University of Coimbra",
+        "value": 1290,
+        "emoji": "📚"
+      },
+      {
+        "name": "Charles University, Prague",
+        "value": 1348,
+        "emoji": "🏰"
+      },
+      {
+        "name": "Harvard University",
+        "value": 1636,
+        "emoji": "🏛️"
+      },
+      {
+        "name": "Yale University",
+        "value": 1701,
+        "emoji": "📐"
+      },
+      {
+        "name": "University of Tokyo",
+        "value": 1877,
+        "emoji": "🌸"
+      }
+    ]
+  },
+  {
+    "id": "f6-painter-birth",
+    "axis": "Painter birth year",
+    "prompt": "Order these famous painters from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "culture",
+    "format": "year",
+    "items": [
+      {
+        "name": "Leonardo da Vinci",
+        "value": 1452,
+        "emoji": "🖼️"
+      },
+      {
+        "name": "Michelangelo",
+        "value": 1475,
+        "emoji": "🎨"
+      },
+      {
+        "name": "Raphael",
+        "value": 1483,
+        "emoji": "👼"
+      },
+      {
+        "name": "Rembrandt",
+        "value": 1606,
+        "emoji": "🖌️"
+      },
+      {
+        "name": "Claude Monet",
+        "value": 1840,
+        "emoji": "🪷"
+      },
+      {
+        "name": "Vincent van Gogh",
+        "value": 1853,
+        "emoji": "🌻"
+      },
+      {
+        "name": "Pablo Picasso",
+        "value": 1881,
+        "emoji": "🎭"
+      },
+      {
+        "name": "Salvador Dalí",
+        "value": 1904,
+        "emoji": "⏰"
+      }
+    ]
+  },
+  {
+    "id": "f6-president-birth",
+    "axis": "US President birth year",
+    "prompt": "Order these US Presidents from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "George Washington",
+        "value": 1732,
+        "emoji": "🎩"
+      },
+      {
+        "name": "Abraham Lincoln",
+        "value": 1809,
+        "emoji": "🪓"
+      },
+      {
+        "name": "Theodore Roosevelt",
+        "value": 1858,
+        "emoji": "🐻"
+      },
+      {
+        "name": "Franklin D. Roosevelt",
+        "value": 1882,
+        "emoji": "♿"
+      },
+      {
+        "name": "Ronald Reagan",
+        "value": 1911,
+        "emoji": "🎬"
+      },
+      {
+        "name": "John F. Kennedy",
+        "value": 1917,
+        "emoji": "🚀"
+      },
+      {
+        "name": "Donald Trump",
+        "value": 1946,
+        "emoji": "🏢"
+      },
+      {
+        "name": "Barack Obama",
+        "value": 1961,
+        "emoji": "🇺🇸"
+      }
+    ]
+  },
+  {
+    "id": "f6-author-birth",
+    "axis": "Author birth year",
+    "prompt": "Order these celebrated authors from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "culture",
+    "format": "year",
+    "items": [
+      {
+        "name": "William Shakespeare",
+        "value": 1564,
+        "emoji": "🎭"
+      },
+      {
+        "name": "Jane Austen",
+        "value": 1775,
+        "emoji": "💌"
+      },
+      {
+        "name": "Charles Dickens",
+        "value": 1812,
+        "emoji": "📖"
+      },
+      {
+        "name": "Leo Tolstoy",
+        "value": 1828,
+        "emoji": "📚"
+      },
+      {
+        "name": "Mark Twain",
+        "value": 1835,
+        "emoji": "🚣"
+      },
+      {
+        "name": "Ernest Hemingway",
+        "value": 1899,
+        "emoji": "🎣"
+      },
+      {
+        "name": "George Orwell",
+        "value": 1903,
+        "emoji": "👁️"
+      },
+      {
+        "name": "Gabriel García Márquez",
+        "value": 1927,
+        "emoji": "🦋"
+      }
+    ]
+  },
+  {
+    "id": "f6-mathematician-birth",
+    "axis": "Mathematician birth year",
+    "prompt": "Order these mathematicians from earliest-born to latest-born.",
+    "unit": "",
+    "lowLabel": "Earliest born",
+    "highLabel": "Latest born",
+    "category": "science",
+    "format": "year",
+    "items": [
+      {
+        "name": "Pythagoras",
+        "value": -570,
+        "emoji": "📐"
+      },
+      {
+        "name": "Archimedes",
+        "value": -287,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Leonardo Fibonacci",
+        "value": 1170,
+        "emoji": "🔢"
+      },
+      {
+        "name": "Gottfried Leibniz",
+        "value": 1646,
+        "emoji": "➗"
+      },
+      {
+        "name": "Leonhard Euler",
+        "value": 1707,
+        "emoji": "🧮"
+      },
+      {
+        "name": "Carl Friedrich Gauss",
+        "value": 1777,
+        "emoji": "📊"
+      },
+      {
+        "name": "Ada Lovelace",
+        "value": 1815,
+        "emoji": "💻",
+        "note": "Wrote what is often called the first computer algorithm."
+      },
+      {
+        "name": "John von Neumann",
+        "value": 1903,
+        "emoji": "🖥️"
+      }
+    ]
+  },
+  {
+    "id": "f6-writing-system-age",
+    "axis": "Age of writing system",
+    "prompt": "Order these writing systems from the oldest to the most recent to first appear.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "history",
+    "format": "year",
+    "items": [
+      {
+        "name": "Cuneiform",
+        "value": -3200,
+        "emoji": "🔺",
+        "note": "Developed by the Sumerians, among the earliest known scripts."
+      },
+      {
+        "name": "Chinese characters",
+        "value": -1200,
+        "emoji": "🀄"
+      },
+      {
+        "name": "Phoenician alphabet",
+        "value": -1050,
+        "emoji": "🔤"
+      },
+      {
+        "name": "Greek alphabet",
+        "value": -800,
+        "emoji": "🏛️"
+      },
+      {
+        "name": "Latin alphabet",
+        "value": -700,
+        "emoji": "🅰️"
+      },
+      {
+        "name": "Maya script",
+        "value": -300,
+        "emoji": "🗿"
+      },
+      {
+        "name": "Hangul",
+        "value": 1443,
+        "emoji": "🇰🇷",
+        "note": "Commissioned by King Sejong the Great of Korea."
+      },
+      {
+        "name": "Cherokee syllabary",
+        "value": 1821,
+        "emoji": "🪶"
+      }
+    ]
+  },
+  {
+    "id": "f5-waterfall-height",
+    "axis": "Waterfall height",
+    "prompt": "Order these waterfalls from shortest to tallest total drop.",
+    "unit": "m",
+    "lowLabel": "Shortest",
+    "highLabel": "Tallest",
+    "category": "nature",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Niagara Falls",
+        "value": 51,
+        "emoji": "🌊",
+        "note": "Huge flow, but a modest 51 m drop."
+      },
+      {
+        "name": "Iguazu Falls",
+        "value": 82,
+        "emoji": "💦"
+      },
+      {
+        "name": "Victoria Falls",
+        "value": 108,
+        "emoji": "🌈"
+      },
+      {
+        "name": "Kaieteur Falls",
+        "value": 226,
+        "emoji": "🏞️",
+        "note": "One of the world's largest single-drop falls."
+      },
+      {
+        "name": "Sutherland Falls",
+        "value": 580,
+        "emoji": "🗻"
+      },
+      {
+        "name": "Yosemite Falls",
+        "value": 739,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Vinnufossen",
+        "value": 860,
+        "emoji": "❄️",
+        "note": "Tallest waterfall in Europe."
+      },
+      {
+        "name": "Angel Falls",
+        "value": 979,
+        "emoji": "👼",
+        "note": "World's tallest uninterrupted waterfall."
+      }
+    ]
+  },
+  {
+    "id": "f5-lake-depth",
+    "axis": "Lake maximum depth",
+    "prompt": "Order these lakes from shallowest to deepest at their deepest point.",
+    "unit": "m",
+    "lowLabel": "Shallowest",
+    "highLabel": "Deepest",
+    "category": "nature",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Loch Ness",
+        "value": 230,
+        "emoji": "🦕"
+      },
+      {
+        "name": "Lake Michigan",
+        "value": 281,
+        "emoji": "🌊"
+      },
+      {
+        "name": "Lake Superior",
+        "value": 406,
+        "emoji": "🚢"
+      },
+      {
+        "name": "Lake Tahoe",
+        "value": 501,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Crater Lake",
+        "value": 594,
+        "emoji": "🌋"
+      },
+      {
+        "name": "Lake Malawi",
+        "value": 706,
+        "emoji": "🐟"
+      },
+      {
+        "name": "Lake Tanganyika",
+        "value": 1470,
+        "emoji": "🐊",
+        "note": "Second-deepest lake in the world."
+      },
+      {
+        "name": "Lake Baikal",
+        "value": 1642,
+        "emoji": "❄️",
+        "note": "The deepest lake on Earth."
+      }
+    ]
+  },
+  {
+    "id": "f5-bridge-span",
+    "axis": "Bridge main-span length",
+    "prompt": "Order these suspension bridges from shortest to longest main span.",
+    "unit": "m",
+    "lowLabel": "Shortest span",
+    "highLabel": "Longest span",
+    "category": "geography",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Brooklyn Bridge",
+        "value": 486,
+        "emoji": "🗽"
+      },
+      {
+        "name": "Mackinac Bridge",
+        "value": 1158,
+        "emoji": "🌉"
+      },
+      {
+        "name": "Golden Gate Bridge",
+        "value": 1280,
+        "emoji": "🌁"
+      },
+      {
+        "name": "Verrazzano-Narrows Bridge",
+        "value": 1298,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Humber Bridge",
+        "value": 1410,
+        "emoji": "🇬🇧"
+      },
+      {
+        "name": "Great Belt Bridge",
+        "value": 1624,
+        "emoji": "🇩🇰"
+      },
+      {
+        "name": "Akashi Kaikyō Bridge",
+        "value": 1991,
+        "emoji": "🇯🇵"
+      },
+      {
+        "name": "1915 Çanakkale Bridge",
+        "value": 2023,
+        "emoji": "🇹🇷",
+        "note": "World's longest suspension span."
+      }
+    ]
+  },
+  {
+    "id": "f5-rail-tunnel-length",
+    "axis": "Rail tunnel length",
+    "prompt": "Order these railway tunnels from shortest to longest.",
+    "unit": "km",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "geography",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Simplon Tunnel",
+        "value": 19.8,
+        "emoji": "🚂"
+      },
+      {
+        "name": "Daishimizu Tunnel",
+        "value": 22.2,
+        "emoji": "🚄"
+      },
+      {
+        "name": "Hakkōda Tunnel",
+        "value": 26.5,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Guadarrama Tunnel",
+        "value": 28.4,
+        "emoji": "🇪🇸"
+      },
+      {
+        "name": "Lötschberg Base Tunnel",
+        "value": 34.6,
+        "emoji": "🇨🇭"
+      },
+      {
+        "name": "Channel Tunnel",
+        "value": 50.5,
+        "emoji": "🌊",
+        "note": "Links England and France under the sea."
+      },
+      {
+        "name": "Seikan Tunnel",
+        "value": 53.9,
+        "emoji": "🇯🇵"
+      },
+      {
+        "name": "Gotthard Base Tunnel",
+        "value": 57.1,
+        "emoji": "⛰️",
+        "note": "World's longest rail tunnel."
+      }
+    ]
+  },
+  {
+    "id": "f5-capital-elevation",
+    "axis": "Capital city elevation",
+    "prompt": "Order these capital cities from lowest to highest elevation.",
+    "unit": "m",
+    "lowLabel": "Lowest",
+    "highLabel": "Highest",
+    "category": "geography",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Madrid",
+        "value": 667,
+        "emoji": "🇪🇸"
+      },
+      {
+        "name": "Kathmandu",
+        "value": 1400,
+        "emoji": "🇳🇵"
+      },
+      {
+        "name": "Nairobi",
+        "value": 1795,
+        "emoji": "🇰🇪"
+      },
+      {
+        "name": "Mexico City",
+        "value": 2240,
+        "emoji": "🇲🇽"
+      },
+      {
+        "name": "Addis Ababa",
+        "value": 2355,
+        "emoji": "🇪🇹"
+      },
+      {
+        "name": "Bogotá",
+        "value": 2640,
+        "emoji": "🇨🇴"
+      },
+      {
+        "name": "Quito",
+        "value": 2850,
+        "emoji": "🇪🇨"
+      },
+      {
+        "name": "La Paz",
+        "value": 3640,
+        "emoji": "🇧🇴",
+        "note": "The highest de facto capital city."
+      }
+    ]
+  },
+  {
+    "id": "f5-coastline-length",
+    "axis": "Country coastline length",
+    "prompt": "Order these countries from shortest to longest coastline.",
+    "unit": "km",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "geography",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Brazil",
+        "value": 7491,
+        "emoji": "🇧🇷"
+      },
+      {
+        "name": "United Kingdom",
+        "value": 12429,
+        "emoji": "🇬🇧"
+      },
+      {
+        "name": "United States",
+        "value": 19924,
+        "emoji": "🇺🇸"
+      },
+      {
+        "name": "Australia",
+        "value": 25760,
+        "emoji": "🇦🇺"
+      },
+      {
+        "name": "Japan",
+        "value": 29751,
+        "emoji": "🇯🇵"
+      },
+      {
+        "name": "Russia",
+        "value": 37653,
+        "emoji": "🇷🇺"
+      },
+      {
+        "name": "Indonesia",
+        "value": 54720,
+        "emoji": "🇮🇩"
+      },
+      {
+        "name": "Canada",
+        "value": 202080,
+        "emoji": "🇨🇦",
+        "note": "By far the world's longest coastline."
+      }
+    ]
+  },
+  {
+    "id": "f5-canyon-depth",
+    "axis": "Canyon depth",
+    "prompt": "Order these canyons from shallowest to deepest.",
+    "unit": "m",
+    "lowLabel": "Shallowest",
+    "highLabel": "Deepest",
+    "category": "nature",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Fish River Canyon",
+        "value": 550,
+        "emoji": "🇳🇦"
+      },
+      {
+        "name": "Blyde River Canyon",
+        "value": 800,
+        "emoji": "🌿"
+      },
+      {
+        "name": "Grand Canyon",
+        "value": 1857,
+        "emoji": "🏜️",
+        "note": "Carved by the Colorado River."
+      },
+      {
+        "name": "Hells Canyon",
+        "value": 2436,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Colca Canyon",
+        "value": 3270,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Cotahuasi Canyon",
+        "value": 3535,
+        "emoji": "🏔️"
+      },
+      {
+        "name": "Tiger Leaping Gorge",
+        "value": 3790,
+        "emoji": "🐅"
+      },
+      {
+        "name": "Yarlung Tsangpo Grand Canyon",
+        "value": 5382,
+        "emoji": "🏔️",
+        "note": "The world's deepest canyon."
+      }
+    ]
+  },
+  {
+    "id": "f5-dam-height",
+    "axis": "Dam height",
+    "prompt": "Order these dams from shortest to tallest.",
+    "unit": "m",
+    "lowLabel": "Shortest",
+    "highLabel": "Tallest",
+    "category": "geography",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Three Gorges Dam",
+        "value": 181,
+        "emoji": "🇨🇳",
+        "note": "World's largest power station by capacity."
+      },
+      {
+        "name": "Hoover Dam",
+        "value": 221,
+        "emoji": "🇺🇸"
+      },
+      {
+        "name": "Oroville Dam",
+        "value": 235,
+        "emoji": "💧"
+      },
+      {
+        "name": "Mica Dam",
+        "value": 243,
+        "emoji": "🇨🇦"
+      },
+      {
+        "name": "Vajont Dam",
+        "value": 262,
+        "emoji": "🇮🇹"
+      },
+      {
+        "name": "Grande Dixence Dam",
+        "value": 285,
+        "emoji": "🇨🇭"
+      },
+      {
+        "name": "Nurek Dam",
+        "value": 300,
+        "emoji": "🇹🇯"
+      },
+      {
+        "name": "Jinping-I Dam",
+        "value": 305,
+        "emoji": "🏔️",
+        "note": "One of the world's tallest dams."
+      }
+    ]
+  },
+  {
+    "id": "f7-prog-lang-year",
+    "axis": "Programming language year",
+    "prompt": "Order these programming languages from oldest to newest.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "tech",
+    "format": "year",
+    "items": [
+      {
+        "name": "Fortran",
+        "value": 1957,
+        "emoji": "🧮",
+        "note": "First widely used high-level language."
+      },
+      {
+        "name": "COBOL",
+        "value": 1959,
+        "emoji": "🏦"
+      },
+      {
+        "name": "C",
+        "value": 1972,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "C++",
+        "value": 1985,
+        "emoji": "➕"
+      },
+      {
+        "name": "Python",
+        "value": 1991,
+        "emoji": "🐍"
+      },
+      {
+        "name": "Java",
+        "value": 1995,
+        "emoji": "☕"
+      },
+      {
+        "name": "C#",
+        "value": 2000,
+        "emoji": "🔷"
+      },
+      {
+        "name": "Swift",
+        "value": 2014,
+        "emoji": "🦅"
+      }
+    ]
+  },
+  {
+    "id": "f7-os-year",
+    "axis": "Operating system year",
+    "prompt": "Order these operating systems from oldest to newest.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "tech",
+    "format": "year",
+    "items": [
+      {
+        "name": "Unix",
+        "value": 1971,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "MS-DOS",
+        "value": 1981,
+        "emoji": "💾"
+      },
+      {
+        "name": "Mac System 1",
+        "value": 1984,
+        "emoji": "🖱️"
+      },
+      {
+        "name": "Windows 1.0",
+        "value": 1985,
+        "emoji": "🪟"
+      },
+      {
+        "name": "Linux",
+        "value": 1991,
+        "emoji": "🐧"
+      },
+      {
+        "name": "Windows 95",
+        "value": 1995,
+        "emoji": "🖼️"
+      },
+      {
+        "name": "Mac OS X",
+        "value": 2001,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Android",
+        "value": 2008,
+        "emoji": "🤖"
+      }
+    ]
+  },
+  {
+    "id": "f7-aircraft-first-flight",
+    "axis": "First-flight year",
+    "prompt": "Order these aircraft by the year they first flew, oldest to newest.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "tech",
+    "format": "year",
+    "items": [
+      {
+        "name": "Wright Flyer",
+        "value": 1903,
+        "emoji": "🪶",
+        "note": "First powered, controlled flight."
+      },
+      {
+        "name": "Douglas DC-3",
+        "value": 1935,
+        "emoji": "✈️"
+      },
+      {
+        "name": "Boeing B-52",
+        "value": 1952,
+        "emoji": "💣"
+      },
+      {
+        "name": "Boeing 707",
+        "value": 1957,
+        "emoji": "🛫"
+      },
+      {
+        "name": "Boeing 747",
+        "value": 1969,
+        "emoji": "🛬"
+      },
+      {
+        "name": "Airbus A320",
+        "value": 1987,
+        "emoji": "🛩️"
+      },
+      {
+        "name": "Boeing 777",
+        "value": 1994,
+        "emoji": "🦅"
+      },
+      {
+        "name": "Airbus A380",
+        "value": 2005,
+        "emoji": "🌍"
+      }
+    ]
+  },
+  {
+    "id": "f7-datalink-speed",
+    "axis": "Connection speed",
+    "prompt": "Order these connection types from slowest to fastest.",
+    "unit": "Mbps",
+    "lowLabel": "Slowest",
+    "highLabel": "Fastest",
+    "category": "tech",
+    "format": "number",
+    "decimals": 3,
+    "items": [
+      {
+        "name": "Dial-up modem (56k)",
+        "value": 0.056,
+        "emoji": "☎️"
+      },
+      {
+        "name": "ISDN",
+        "value": 0.128,
+        "emoji": "📞"
+      },
+      {
+        "name": "T1 line",
+        "value": 1.5,
+        "emoji": "🔌"
+      },
+      {
+        "name": "ADSL",
+        "value": 8,
+        "emoji": "📡"
+      },
+      {
+        "name": "Cable broadband",
+        "value": 100,
+        "emoji": "📺"
+      },
+      {
+        "name": "Gigabit Ethernet",
+        "value": 1000,
+        "emoji": "🔗"
+      },
+      {
+        "name": "10 Gigabit fiber",
+        "value": 10000,
+        "emoji": "🌐"
+      },
+      {
+        "name": "100 Gigabit Ethernet",
+        "value": 100000,
+        "emoji": "🚀"
+      }
+    ]
+  },
+  {
+    "id": "f7-car-debut",
+    "axis": "Debut year",
+    "prompt": "Order these car models by the year they debuted, oldest to newest.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "tech",
+    "format": "year",
+    "items": [
+      {
+        "name": "Ford Model T",
+        "value": 1908,
+        "emoji": "🚗",
+        "note": "Pioneered mass-production assembly."
+      },
+      {
+        "name": "Citroën 2CV",
+        "value": 1948,
+        "emoji": "🐌"
+      },
+      {
+        "name": "Mini",
+        "value": 1959,
+        "emoji": "🚘"
+      },
+      {
+        "name": "Ford Mustang",
+        "value": 1964,
+        "emoji": "🐎"
+      },
+      {
+        "name": "Volkswagen Golf",
+        "value": 1974,
+        "emoji": "⛳"
+      },
+      {
+        "name": "Mazda MX-5 Miata",
+        "value": 1989,
+        "emoji": "🏎️"
+      },
+      {
+        "name": "Toyota Prius",
+        "value": 1997,
+        "emoji": "🔋"
+      },
+      {
+        "name": "Tesla Model S",
+        "value": 2012,
+        "emoji": "⚡"
+      }
+    ]
+  },
+  {
+    "id": "f7-camera-megapixels",
+    "axis": "Camera resolution",
+    "prompt": "Order these phone cameras from lowest to highest main-sensor resolution.",
+    "unit": "MP",
+    "lowLabel": "Lowest-res",
+    "highLabel": "Highest-res",
+    "category": "tech",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Nokia 7650",
+        "value": 0.3,
+        "emoji": "📟"
+      },
+      {
+        "name": "Original iPhone",
+        "value": 2,
+        "emoji": "📱"
+      },
+      {
+        "name": "Samsung Galaxy S",
+        "value": 5,
+        "emoji": "🤖"
+      },
+      {
+        "name": "iPhone 5",
+        "value": 8,
+        "emoji": "🍎"
+      },
+      {
+        "name": "Google Pixel",
+        "value": 12,
+        "emoji": "📸"
+      },
+      {
+        "name": "iPhone 15 Pro",
+        "value": 48,
+        "emoji": "🍏"
+      },
+      {
+        "name": "Samsung Galaxy S20 Ultra",
+        "value": 108,
+        "emoji": "📷"
+      },
+      {
+        "name": "Samsung Galaxy S23 Ultra",
+        "value": 200,
+        "emoji": "🔭"
+      }
+    ]
+  },
+  {
+    "id": "f7-album-year",
+    "axis": "Album release year",
+    "prompt": "Order these iconic albums from oldest to newest.",
+    "unit": "",
+    "lowLabel": "Oldest",
+    "highLabel": "Newest",
+    "category": "culture",
+    "format": "year",
+    "items": [
+      {
+        "name": "Elvis Presley",
+        "value": 1956,
+        "emoji": "🎸"
+      },
+      {
+        "name": "Sgt. Pepper’s",
+        "value": 1967,
+        "emoji": "🎶"
+      },
+      {
+        "name": "Dark Side of the Moon",
+        "value": 1973,
+        "emoji": "🌗"
+      },
+      {
+        "name": "Thriller",
+        "value": 1982,
+        "emoji": "🧟"
+      },
+      {
+        "name": "Nevermind",
+        "value": 1991,
+        "emoji": "🎸"
+      },
+      {
+        "name": "OK Computer",
+        "value": 1997,
+        "emoji": "🤖"
+      },
+      {
+        "name": "Back to Black",
+        "value": 2006,
+        "emoji": "🎤"
+      },
+      {
+        "name": "Random Access Memories",
+        "value": 2013,
+        "emoji": "🤖"
+      }
+    ]
+  },
+  {
+    "id": "f7-supercar-topspeed",
+    "axis": "Top speed",
+    "prompt": "Order these supercars from slowest to fastest top speed.",
+    "unit": "km/h",
+    "lowLabel": "Slowest",
+    "highLabel": "Fastest",
+    "category": "tech",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Jaguar E-Type",
+        "value": 241,
+        "emoji": "🐆"
+      },
+      {
+        "name": "Lamborghini Miura",
+        "value": 280,
+        "emoji": "🐂"
+      },
+      {
+        "name": "Ferrari F40",
+        "value": 324,
+        "emoji": "🏎️"
+      },
+      {
+        "name": "McLaren F1",
+        "value": 386,
+        "emoji": "🏁"
+      },
+      {
+        "name": "Bugatti Veyron",
+        "value": 408,
+        "emoji": "🐎"
+      },
+      {
+        "name": "Hennessey Venom GT",
+        "value": 435,
+        "emoji": "🐍"
+      },
+      {
+        "name": "Koenigsegg Agera RS",
+        "value": 447,
+        "emoji": "👑",
+        "note": "Set a 447 km/h production-car record in 2017."
+      },
+      {
+        "name": "Bugatti Chiron SS",
+        "value": 490,
+        "emoji": "🚀",
+        "note": "First production car past 300 mph."
+      }
+    ]
+  },
+  {
+    "id": "f7-cpu-transistors",
+    "axis": "Transistor count",
+    "prompt": "Order these processors from fewest to most transistors.",
+    "unit": "transistors",
+    "lowLabel": "Fewest",
+    "highLabel": "Most",
+    "category": "tech",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Intel 4004",
+        "value": 2300,
+        "emoji": "🔲",
+        "note": "First commercial microprocessor (1971)."
+      },
+      {
+        "name": "Intel 8086",
+        "value": 29000,
+        "emoji": "🧮"
+      },
+      {
+        "name": "Intel 80386",
+        "value": 275000,
+        "emoji": "💻"
+      },
+      {
+        "name": "Intel Pentium",
+        "value": 3100000,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "Intel Pentium 4",
+        "value": 42000000,
+        "emoji": "🔥"
+      },
+      {
+        "name": "Intel Core 2 Duo",
+        "value": 291000000,
+        "emoji": "⚙️"
+      },
+      {
+        "name": "Apple A14",
+        "value": 11800000000,
+        "emoji": "📱"
+      },
+      {
+        "name": "Apple M2 Max",
+        "value": 67000000000,
+        "emoji": "🍎"
+      }
+    ]
+  },
+  {
+    "id": "f8-organ-weight",
+    "axis": "Organ weight",
+    "prompt": "Order these human organs from lightest to heaviest (adult average).",
+    "unit": "g",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "body",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Eye",
+        "value": 8,
+        "emoji": "👁️"
+      },
+      {
+        "name": "Thyroid",
+        "value": 25,
+        "emoji": "🦋"
+      },
+      {
+        "name": "Pancreas",
+        "value": 90,
+        "emoji": "🟡"
+      },
+      {
+        "name": "Kidney (one)",
+        "value": 140,
+        "emoji": "🫘"
+      },
+      {
+        "name": "Heart",
+        "value": 300,
+        "emoji": "🫀"
+      },
+      {
+        "name": "Lungs (both)",
+        "value": 1100,
+        "emoji": "🫁"
+      },
+      {
+        "name": "Liver",
+        "value": 1500,
+        "emoji": "🟤",
+        "note": "The heaviest internal organ."
+      },
+      {
+        "name": "Skin",
+        "value": 3600,
+        "emoji": "🧍",
+        "note": "The body's largest organ by both weight and area."
+      }
+    ]
+  },
+  {
+    "id": "f8-court-length",
+    "axis": "Playing-area length",
+    "prompt": "Order these sports surfaces from shortest to longest.",
+    "unit": "m",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "sports",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Table tennis table",
+        "value": 2.74,
+        "emoji": "🏓"
+      },
+      {
+        "name": "Boxing ring (side)",
+        "value": 6.1,
+        "emoji": "🥊"
+      },
+      {
+        "name": "Bowling lane",
+        "value": 18.29,
+        "emoji": "🎳"
+      },
+      {
+        "name": "Tennis court",
+        "value": 23.77,
+        "emoji": "🎾"
+      },
+      {
+        "name": "Olympic swimming pool",
+        "value": 50,
+        "emoji": "🏊"
+      },
+      {
+        "name": "Ice hockey rink (NHL)",
+        "value": 60.96,
+        "emoji": "🏒"
+      },
+      {
+        "name": "Soccer pitch",
+        "value": 105,
+        "emoji": "⚽"
+      },
+      {
+        "name": "Athletics track (one lap)",
+        "value": 400,
+        "emoji": "🏃"
+      }
+    ]
+  },
+  {
+    "id": "f8-paper-size",
+    "axis": "Paper area",
+    "prompt": "Order these ISO 'A' paper sizes from smallest to largest by area.",
+    "unit": "cm²",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "culture",
+    "format": "integer",
+    "items": [
+      {
+        "name": "A7",
+        "value": 78,
+        "emoji": "🏷️"
+      },
+      {
+        "name": "A6",
+        "value": 156,
+        "emoji": "📇"
+      },
+      {
+        "name": "A5",
+        "value": 313,
+        "emoji": "📓"
+      },
+      {
+        "name": "A4",
+        "value": 625,
+        "emoji": "📄",
+        "note": "The standard office sheet in most of the world."
+      },
+      {
+        "name": "A3",
+        "value": 1250,
+        "emoji": "📰"
+      },
+      {
+        "name": "A2",
+        "value": 2500,
+        "emoji": "🗞️"
+      },
+      {
+        "name": "A1",
+        "value": 5000,
+        "emoji": "📐"
+      },
+      {
+        "name": "A0",
+        "value": 10000,
+        "emoji": "🗺️",
+        "note": "Exactly one square metre by design."
+      }
+    ]
+  },
+  {
+    "id": "f8-object-weight",
+    "axis": "Object weight",
+    "prompt": "Order these everyday objects from lightest to heaviest.",
+    "unit": "g",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "culture",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Paperclip",
+        "value": 1,
+        "emoji": "📎"
+      },
+      {
+        "name": "AA battery",
+        "value": 24,
+        "emoji": "🔋"
+      },
+      {
+        "name": "Chicken egg",
+        "value": 58,
+        "emoji": "🥚"
+      },
+      {
+        "name": "Deck of cards",
+        "value": 95,
+        "emoji": "🃏"
+      },
+      {
+        "name": "Smartphone",
+        "value": 190,
+        "emoji": "📱"
+      },
+      {
+        "name": "Can of soup (full)",
+        "value": 410,
+        "emoji": "🥫"
+      },
+      {
+        "name": "Bag of sugar",
+        "value": 1000,
+        "emoji": "🧂"
+      },
+      {
+        "name": "Clay brick",
+        "value": 2000,
+        "emoji": "🧱"
+      }
+    ]
+  },
+  {
+    "id": "f8-vehicle-weight",
+    "axis": "Vehicle weight",
+    "prompt": "Order these vehicles from lightest to heaviest.",
+    "unit": "kg",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "tech",
+    "format": "integer",
+    "items": [
+      {
+        "name": "Bicycle",
+        "value": 10,
+        "emoji": "🚲"
+      },
+      {
+        "name": "Motorcycle",
+        "value": 200,
+        "emoji": "🏍️"
+      },
+      {
+        "name": "Smart Fortwo",
+        "value": 900,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Family sedan",
+        "value": 1300,
+        "emoji": "🚙"
+      },
+      {
+        "name": "Pickup truck",
+        "value": 2200,
+        "emoji": "🛻"
+      },
+      {
+        "name": "Delivery van",
+        "value": 3500,
+        "emoji": "🚐"
+      },
+      {
+        "name": "City bus",
+        "value": 12000,
+        "emoji": "🚌"
+      },
+      {
+        "name": "Loaded semi-truck",
+        "value": 40000,
+        "emoji": "🚛"
+      }
+    ]
+  },
+  {
+    "id": "f8-ball-weight",
+    "axis": "Ball weight",
+    "prompt": "Order these sports balls from lightest to heaviest.",
+    "unit": "g",
+    "lowLabel": "Lightest",
+    "highLabel": "Heaviest",
+    "category": "sports",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Table tennis ball",
+        "value": 2.7,
+        "emoji": "🏓",
+        "note": "Official weight is exactly 2.7 g."
+      },
+      {
+        "name": "Squash ball",
+        "value": 24,
+        "emoji": "🟢"
+      },
+      {
+        "name": "Tennis ball",
+        "value": 57,
+        "emoji": "🎾"
+      },
+      {
+        "name": "Baseball",
+        "value": 145,
+        "emoji": "⚾"
+      },
+      {
+        "name": "Volleyball",
+        "value": 270,
+        "emoji": "🏐"
+      },
+      {
+        "name": "Soccer ball",
+        "value": 430,
+        "emoji": "⚽"
+      },
+      {
+        "name": "Basketball",
+        "value": 620,
+        "emoji": "🏀"
+      },
+      {
+        "name": "Bowling ball",
+        "value": 7260,
+        "emoji": "🎳",
+        "note": "The 16-pound competition maximum."
+      }
+    ]
+  },
+  {
+    "id": "f8-battery-capacity",
+    "axis": "Battery capacity",
+    "prompt": "Order these batteries from smallest to largest energy capacity.",
+    "unit": "Wh",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "tech",
+    "format": "integer",
+    "items": [
+      {
+        "name": "AA battery",
+        "value": 4,
+        "emoji": "🔋"
+      },
+      {
+        "name": "Smartphone",
+        "value": 16,
+        "emoji": "📱"
+      },
+      {
+        "name": "Tablet",
+        "value": 30,
+        "emoji": "📲"
+      },
+      {
+        "name": "Laptop",
+        "value": 60,
+        "emoji": "💻"
+      },
+      {
+        "name": "Portable power station",
+        "value": 1000,
+        "emoji": "🔌"
+      },
+      {
+        "name": "Home battery (Powerwall)",
+        "value": 13500,
+        "emoji": "🏠",
+        "note": "A Tesla Powerwall stores 13.5 kWh."
+      },
+      {
+        "name": "Electric car",
+        "value": 75000,
+        "emoji": "🚗"
+      },
+      {
+        "name": "Electric semi-truck",
+        "value": 900000,
+        "emoji": "🚛"
+      }
+    ]
+  },
+  {
+    "id": "f8-container-volume",
+    "axis": "Container volume",
+    "prompt": "Order these containers from smallest to largest capacity.",
+    "unit": "L",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "culture",
+    "format": "number",
+    "decimals": 2,
+    "items": [
+      {
+        "name": "Shot glass",
+        "value": 0.04,
+        "emoji": "🥃"
+      },
+      {
+        "name": "Coffee mug",
+        "value": 0.35,
+        "emoji": "☕"
+      },
+      {
+        "name": "Wine bottle",
+        "value": 0.75,
+        "emoji": "🍷",
+        "note": "The standard bottle holds 750 ml."
+      },
+      {
+        "name": "Large soda bottle",
+        "value": 2,
+        "emoji": "🥤"
+      },
+      {
+        "name": "Bucket",
+        "value": 10,
+        "emoji": "🪣"
+      },
+      {
+        "name": "Car fuel tank",
+        "value": 50,
+        "emoji": "⛽"
+      },
+      {
+        "name": "Bathtub",
+        "value": 150,
+        "emoji": "🛁"
+      },
+      {
+        "name": "Hot tub",
+        "value": 1500,
+        "emoji": "♨️"
+      }
+    ]
+  },
+  {
+    "id": "f8-screen-diagonal",
+    "axis": "Screen size",
+    "prompt": "Order these screens from smallest to largest diagonal.",
+    "unit": "in",
+    "lowLabel": "Smallest",
+    "highLabel": "Largest",
+    "category": "tech",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Smartwatch",
+        "value": 1.9,
+        "emoji": "⌚"
+      },
+      {
+        "name": "Smartphone",
+        "value": 6.1,
+        "emoji": "📱"
+      },
+      {
+        "name": "Tablet",
+        "value": 11,
+        "emoji": "📲"
+      },
+      {
+        "name": "Laptop",
+        "value": 15.6,
+        "emoji": "💻"
+      },
+      {
+        "name": "Desktop monitor",
+        "value": 27,
+        "emoji": "🖥️"
+      },
+      {
+        "name": "Living-room TV",
+        "value": 55,
+        "emoji": "📺"
+      },
+      {
+        "name": "Home-theater TV",
+        "value": 85,
+        "emoji": "🖼️"
+      },
+      {
+        "name": "IMAX cinema screen",
+        "value": 1000,
+        "emoji": "🎬",
+        "note": "A giant IMAX screen dwarfs any home display."
+      }
+    ]
+  },
+  {
+    "id": "f8-bone-length",
+    "axis": "Bone length",
+    "prompt": "Order these human bones from shortest to longest.",
+    "unit": "cm",
+    "lowLabel": "Shortest",
+    "highLabel": "Longest",
+    "category": "body",
+    "format": "number",
+    "decimals": 1,
+    "items": [
+      {
+        "name": "Stapes (ear)",
+        "value": 0.3,
+        "emoji": "👂",
+        "note": "The smallest bone in the human body."
+      },
+      {
+        "name": "Nasal bone",
+        "value": 2.5,
+        "emoji": "👃"
+      },
+      {
+        "name": "Metacarpal (hand)",
+        "value": 5,
+        "emoji": "✋"
+      },
+      {
+        "name": "Clavicle (collarbone)",
+        "value": 15,
+        "emoji": "🦴"
+      },
+      {
+        "name": "Radius (forearm)",
+        "value": 26,
+        "emoji": "🤜"
+      },
+      {
+        "name": "Humerus (upper arm)",
+        "value": 35,
+        "emoji": "💪"
+      },
+      {
+        "name": "Tibia (shin)",
+        "value": 43,
+        "emoji": "🦵"
+      },
+      {
+        "name": "Femur (thigh)",
+        "value": 50,
+        "emoji": "🦴",
+        "note": "The longest and strongest bone in the body."
+      }
     ]
   }
 ]

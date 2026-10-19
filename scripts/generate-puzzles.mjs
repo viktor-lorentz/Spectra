@@ -27,7 +27,7 @@ const PUZZLES_PATH = resolve(DATA_DIR, "puzzles.json");
 
 // ---- Tunables -------------------------------------------------------------
 const EPOCH_UTC = "2026-08-18"; // Spectra #1 is this UTC date.
-const TARGET_DAYS = 220; // Generate well beyond the 60-day minimum.
+const TARGET_DAYS = 400; // Over a year of daily puzzles scheduled up front.
 const ITEMS_PER_SET = 8;
 const DAY_MS = 86_400_000;
 // ---------------------------------------------------------------------------
