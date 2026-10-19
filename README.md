@@ -16,7 +16,8 @@ so even a hunch pays off.
 ![React](https://img.shields.io/badge/React-18-0a0a12?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-0a0a12?logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5-0a0a12?logo=vite)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers%20%2B%20D1-0a0a12?logo=cloudflare)
+![Supabase](https://img.shields.io/badge/Supabase-rankings-0a0a12?logo=supabase)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-hosting-0a0a12?logo=cloudflare)
 
 <br />
 
@@ -40,7 +41,7 @@ two minutes.
 ## Features
 
 - 🎚️ **A new puzzle every day** at **00:00 UTC**, the same for everyone, with a live countdown to
-  the next one. 60+ days are generated up front and the bank keeps the schedule topped up.
+  the next one. A full year is scheduled up front from a bank of **139 fact sets**.
 - 🧠 **Smooth 0–1000 scoring** via normalized Kendall-tau distance — every correctly ordered pair
   earns points, a perfect order is 1000, a fully reversed one is 0.
 - 📊 **Today's ranking** — after you finish, see where you landed on a live histogram of everyone's
@@ -61,9 +62,9 @@ two minutes.
 |---|---|
 | Frontend | Vite + React 18 + TypeScript + Tailwind CSS |
 | Animation | Framer Motion (drag-to-reorder + the reveal) |
-| Backend | Cloudflare Worker + D1 (anonymous score aggregation) |
+| Backend | Supabase (Postgres + RPC) for anonymous score aggregation |
 | Tests | Vitest |
-| Hosting | Any static host — Cloudflare Pages, Netlify, Vercel or GitHub Pages |
+| Hosting | Cloudflare Pages (any static host works — Netlify, Vercel, GitHub Pages) |
 
 The game is fully playable with **no backend at all** — the ranking just switches to a deterministic
 offline estimate. The backend only exists to make "you beat X% of players today" real.
@@ -90,46 +91,46 @@ npm run build        # production build into dist/
 npm run preview      # serve the production build locally
 ```
 
-Want the real ranking locally? Copy `.env.example` to `.env` and point `VITE_API_URL` at a running
-worker (see below). Leave it empty to use the offline estimate.
+Want the real ranking locally? Copy `.env.example` to `.env` and fill in your Supabase URL + anon
+key (see below). Leave them empty to use the offline estimate.
 
 ## Deploy
 
-### 1. The backend (Cloudflare Worker + D1) — free tier
+### 1. The backend (Supabase) — free tier, ~3 minutes
 
-```bash
-cd worker
-npm install
-npx wrangler login
+Create a free project at [supabase.com](https://supabase.com), open **SQL Editor**, and run
+[`supabase/schema.sql`](supabase/schema.sql). Then grab your **Project URL** and **anon key** from
+**Settings → API**. Full walkthrough: [`supabase/README.md`](supabase/README.md).
 
-# create the database, then paste the printed database_id into wrangler.toml
-npx wrangler d1 create spectra
+**Anti-abuse built in:** Row Level Security locks the table so only two validated `SECURITY DEFINER`
+functions are reachable; one score per player per day; strict range checks; the anonymous client id
+is only ever stored as an `md5` dedupe hash.
 
-# create the table
-npm run db:init
+### 2. The frontend — Cloudflare Pages (recommended)
 
-# set a secret salt for the stored hashes
-npx wrangler secret put SALT        # paste any long random string
+1. Push this repo to GitHub, then in the Cloudflare dashboard: **Workers & Pages → Create → Pages →
+   Connect to Git** and pick the repo.
+2. Build settings: **Framework preset** `Vite`, **Build command** `npm run build`, **Output
+   directory** `dist`.
+3. Add two environment variables: `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
+4. Deploy. You get a free `https://spectra-xxxx.pages.dev` URL; add a custom domain anytime under
+   the project's **Custom domains** tab (no code change needed).
 
-# deploy
-npm run deploy
-```
+The `public/_redirects` file already handles SPA fallback on Pages/Netlify.
 
-Wrangler prints your worker URL, e.g. `https://spectra-api.<you>.workers.dev`.
-For production, set `ALLOW_ORIGIN` in `wrangler.toml` to your site's origin.
+<details>
+<summary>Other hosts (Netlify, Vercel, GitHub Pages)</summary>
 
-**Anti-abuse built in:** one score per (day, client), a per-IP daily cap, strict range validation,
-and client/IP values are only ever stored as salted SHA-256 hashes.
-
-### 2. The frontend (static)
-
-Set `VITE_API_URL` to your worker URL, then deploy `dist/` anywhere. Examples:
-
-- **Cloudflare Pages / Netlify / Vercel** — framework preset "Vite", build `npm run build`, output
-  `dist`, and add the env var `VITE_API_URL`.
+- **Netlify / Vercel** — framework preset "Vite", output `dist`, add the two `VITE_SUPABASE_*` env
+  vars.
 - **GitHub Pages** — this repo includes `.github/workflows/deploy-pages.yml`. Enable Pages
-  (Settings → Pages → Source: GitHub Actions) and push to `main`. Add `VITE_API_URL` as a repo
-  variable if you want live rankings.
+  (Settings → Pages → Source: GitHub Actions) and push to `main`. Add `VITE_SUPABASE_URL` and
+  `VITE_SUPABASE_ANON_KEY` as repo **Variables** for live rankings.
+</details>
+
+> **Custom domain later:** share links adapt to wherever the app is served, so no code change is
+> needed. For the richest link previews, you can also hard-code your final URL into the `og:url` /
+> `og:image` tags in `index.html`.
 
 ## Adding more puzzles
 
@@ -183,7 +184,7 @@ src/
   hooks/       useGame, useCountdown, useTheme
   components/  board, reveal, modals, charts…
 scripts/       generate-puzzles.mjs
-worker/        Cloudflare Worker + D1 backend
+supabase/      schema.sql (the rankings backend) + setup guide
 ```
 
 ## License
