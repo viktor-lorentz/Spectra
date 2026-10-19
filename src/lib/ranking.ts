@@ -8,11 +8,14 @@ import type { Ranking } from "./types";
 export const RANK_BUCKETS = 20;
 export const RANK_BUCKET_W = MAX_SCORE / RANK_BUCKETS; // 50
 
-const API_URL = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
+// Supabase REST endpoint + public anon key. Both must be set for live rankings;
+// otherwise the game uses the deterministic offline estimate.
+const SUPABASE_URL = (import.meta.env.VITE_SUPABASE_URL ?? "").replace(/\/$/, "");
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
 const TIMEOUT_MS = 6000;
 
 export function hasBackend(): boolean {
-  return API_URL.length > 0;
+  return SUPABASE_URL.length > 0 && SUPABASE_ANON_KEY.length > 0;
 }
 
 /** Which histogram bucket a score falls in. */
@@ -42,18 +45,6 @@ function meanFromBuckets(buckets: number[]): number {
   return n ? Math.round(sum / n) : 0;
 }
 
-async function fetchJSON(url: string, init?: RequestInit): Promise<unknown> {
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
-  try {
-    const res = await fetch(url, { ...init, signal: ctrl.signal });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
 function normalizeBuckets(raw: unknown): number[] {
   const out = new Array(RANK_BUCKETS).fill(0);
   if (!Array.isArray(raw)) return out;
@@ -64,10 +55,13 @@ function normalizeBuckets(raw: unknown): number[] {
   return out;
 }
 
-function rankingFrom(data: { buckets?: unknown; total?: unknown; mean?: unknown }, score: number): Ranking {
-  const buckets = normalizeBuckets(data.buckets);
-  const total = Number(data.total) || buckets.reduce((a, b) => a + b, 0);
-  const mean = Number.isFinite(Number(data.mean)) ? Number(data.mean) : meanFromBuckets(buckets);
+function rankingFrom(
+  data: { buckets?: unknown; total?: unknown; mean?: unknown },
+  score: number,
+): Ranking {
+  const buckets = normalizeBuckets(data?.buckets);
+  const total = Number(data?.total) || buckets.reduce((a, b) => a + b, 0);
+  const mean = Number.isFinite(Number(data?.mean)) ? Number(data?.mean) : meanFromBuckets(buckets);
   return {
     buckets,
     total,
@@ -77,19 +71,41 @@ function rankingFrom(data: { buckets?: unknown; total?: unknown; mean?: unknown 
   };
 }
 
+/** Call a Supabase RPC function with the anon key (throws on any failure). */
+async function rpc(fn: string, body: Record<string, unknown>): Promise<unknown> {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${fn}`, {
+      method: "POST",
+      signal: ctrl.signal,
+      headers: {
+        "Content-Type": "application/json",
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /** Submit today's score and get back the live ranking (throws on failure). */
 export async function submitScore(day: number, score: number): Promise<Ranking> {
-  const data = (await fetchJSON(`${API_URL}/submit`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ day, score, clientId: getClientId() }),
+  const data = (await rpc("submit_score", {
+    p_day: day,
+    p_score: score,
+    p_client: getClientId(),
   })) as { buckets?: unknown; total?: unknown; mean?: unknown };
   return rankingFrom(data, score);
 }
 
 /** Read today's distribution without submitting (throws on failure). */
 export async function fetchDistribution(day: number, score: number): Promise<Ranking> {
-  const data = (await fetchJSON(`${API_URL}/distribution?day=${day}`)) as {
+  const data = (await rpc("get_distribution", { p_day: day })) as {
     buckets?: unknown;
     total?: unknown;
     mean?: unknown;

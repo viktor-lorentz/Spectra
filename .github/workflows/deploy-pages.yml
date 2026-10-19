@@ -40,8 +40,10 @@ jobs:
         env:
           # configure-pages emits the correct /<repo>/ base path.
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
-          # Optional: set this repo variable for live rankings.
-          VITE_API_URL: ${{ vars.VITE_API_URL }}
+          # Optional: set these repo variables for live rankings (Settings → Secrets
+          # and variables → Actions → Variables).
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

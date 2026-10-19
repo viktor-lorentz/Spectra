@@ -1,7 +1,10 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly VITE_API_URL?: string;
+  /** Supabase project URL, e.g. https://xxxx.supabase.co */
+  readonly VITE_SUPABASE_URL?: string;
+  /** Supabase public anon key (safe to ship — the DB is locked down with RLS). */
+  readonly VITE_SUPABASE_ANON_KEY?: string;
 }
 
 interface ImportMeta {
