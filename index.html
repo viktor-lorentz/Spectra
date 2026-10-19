@@ -2,33 +2,71 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0a0a12" />
 
     <title>Spectra — the daily ordering game</title>
     <meta
       name="description"
       content="Spectra is a free daily game. Eight things, one hidden gradient — drag them into order from least to most before the scale reveals the truth. A new puzzle every day."
     />
+    <meta name="author" content="Viktor Lorentz" />
+    <meta
+      name="keywords"
+      content="Spectra, daily game, daily puzzle, ordering game, ranking game, trivia, Wordle-like, brain game"
+    />
+    <link rel="canonical" href="/" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Browser-chrome color; the app updates this live when you toggle themes. -->
+    <meta name="theme-color" content="#0a0a12" />
 
     <!-- Open Graph / social -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Spectra" />
     <meta property="og:title" content="Spectra — the daily ordering game" />
     <meta
       property="og:description"
       content="Eight things, one hidden gradient. Put them in order before the scale reveals the truth. A new puzzle every day."
     />
-    <meta property="og:image" content="/og.svg" />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Spectra — the daily ordering game" />
+    <meta
+      name="twitter:description"
+      content="Eight things, one hidden gradient. Put them in order before the scale reveals the truth."
+    />
+    <meta name="twitter:image" content="/og.png" />
 
-    <!-- Set the theme before React mounts to avoid a flash of the wrong palette. -->
+    <!-- Set the theme before React mounts to avoid a flash of the wrong palette,
+         and upgrade canonical/OG URLs to absolute for wherever this is served. -->
     <script>
       (function () {
         try {
           var t = localStorage.getItem("spectra.theme");
           var dark = t ? t === "dark" : true;
           document.documentElement.classList.toggle("dark", dark);
+        } catch (e) {
+          /* ignore */
+        }
+        try {
+          var base = location.origin + location.pathname.replace(/index\.html$/, "");
+          var set = function (sel, attr, val) {
+            var el = document.querySelector(sel);
+            if (el) el.setAttribute(attr, val);
+          };
+          set('link[rel="canonical"]', "href", base);
+          set('meta[property="og:url"]', "content", base);
+          set('meta[property="og:image"]', "content", base + "og.png");
+          set('meta[name="twitter:image"]', "content", base + "og.png");
         } catch (e) {
           /* ignore */
         }
@@ -44,6 +82,12 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <div style="max-width:28rem;margin:4rem auto;padding:0 1rem;text-align:center;font-family:system-ui,sans-serif;color:#ecedf7">
+        <h1>Spectra</h1>
+        <p>Spectra is a small daily game that needs JavaScript. Please enable it to play.</p>
+      </div>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
